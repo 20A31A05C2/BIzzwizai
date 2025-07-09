@@ -1,0 +1,62 @@
+export const initialProjects = [
+  {
+    id: 1,
+    title: 'NovaLaunch Platform',
+    status: 'En cours',
+    lastActivity: 'Il y a 2 heures',
+    progress: 65,
+    description: 'Une plateforme SaaS pour aider les startups à gérer leurs lancements de produits, avec des outils de planification, de marketing et d\'analyse.',
+    solutionType: 'SaaS',
+    audience: 'B2B',
+    features: ['auth', 'dashboard', 'payment', 'notifications'],
+    visualStyle: 'Futuriste',
+    timing: 'Rapide',
+    budget: 'moreThan10k',
+    mission: 'Aider les startups tech à réussir leurs lancements grâce à une suite d\'outils intégrés.'
+  },
+  {
+    id: 2,
+    title: 'EcoConnect Mobile App',
+    status: 'En attente de maquette',
+    lastActivity: 'Il y a 1 jour',
+    progress: 15,
+    description: 'Application mobile pour connecter les consommateurs avec des producteurs locaux et bio, favorisant les circuits courts.',
+    solutionType: 'Mobile App',
+    audience: 'B2C',
+    features: ['search', 'chat', 'payment'],
+    visualStyle: 'Coloré',
+    timing: 'Standard',
+    budget: '5kTo10k',
+    mission: 'Aider les consommateurs soucieux de l\'environnement à trouver des produits locaux facilement grâce à une app intuitive.'
+  },
+  {
+    id: 3,
+    title: 'AI Art Generator Tool',
+    status: 'Terminé',
+    lastActivity: 'Il y a 1 semaine',
+    progress: 100,
+    description: 'Outil en ligne basé sur l\'IA pour générer des œuvres d\'art uniques à partir de descriptions textuelles.',
+    solutionType: 'Outil IA',
+    audience: 'Niche',
+    features: ['auth', 'payment', 'admin'],
+    visualStyle: 'Minimaliste',
+    timing: 'Urgent',
+    budget: '2kTo5k',
+    mission: 'Aider les créatifs et non-créatifs à générer des images uniques grâce à une IA simple d\'utilisation.'
+  },
+  {
+    id: 4,
+    title: 'Internal CRM Upgrade',
+    status: 'En pause',
+    lastActivity: 'Il y a 3 jours',
+    progress: 30,
+    description: 'Mise à niveau du CRM interne de l\'entreprise pour améliorer le suivi client et automatiser certaines tâches répétitives.',
+    solutionType: 'Outil interne',
+    audience: 'Interne',
+    features: ['dashboard', 'search', 'notifications'],
+    visualStyle: 'Classique',
+    timing: 'Flexible',
+    budget: 'lessThan2k',
+    mission: 'Aider notre équipe commerciale à être plus efficace grâce à un CRM modernisé et automatisé.'
+  }
+];
