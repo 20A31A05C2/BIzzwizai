@@ -1,4 +1,4 @@
-const BaseUrl = "http://127.0.0.1:8000/api";
+const BaseUrl = "/api";
 
 // Flag to prevent multiple redirects
 let isRedirecting = false;
