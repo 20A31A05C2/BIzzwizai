@@ -1,6 +1,6 @@
 [[redirects]]
   from = "/api/*"
-  to = "https://app.bizzwiz.ai/api/public/api/:splat"
+  to = "https://app.bizzwiz.ai/api/:splat"
   status = 200
 force = true
 
