@@ -5,6 +5,7 @@ import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
 import ApiService from '@/apiService';
 import { toast } from '@/components/ui/use-toast';
+import { LogOut } from 'lucide-react';
 
 // Payment modal
 const PaymentModal = ({ open, paymentUrl, onClose }) => {
@@ -96,7 +97,6 @@ const SelectProject = () => {
       }
 
       try {
-        console.log(`Fetching projects for userId: ${userId}`);
         const response = await ApiService(`/form-data/user/${userId}`, 'GET');
         if (response.success) {
           setProjects(response.data);
@@ -104,7 +104,6 @@ const SelectProject = () => {
           throw new Error(response.message || 'Échec du chargement des projets.');
         }
       } catch (error) {
-        console.error('Fetch error:', error);
         setError(error.message || 'Impossible de charger les projets.');
         toast({
           title: "Erreur",
@@ -121,7 +120,6 @@ const SelectProject = () => {
 
   const handleProjectSelect = async (formDataId) => {
     if (!formDataId) {
-      console.error('Invalid formDataId:', formDataId);
       toast({
         title: "Erreur",
         description: 'ID de projet invalide.',
@@ -167,6 +165,33 @@ const SelectProject = () => {
     setShowAlreadyBookedModal(false);
   };
 
+  const handleLogout = async () => {
+    try {
+      const response = await ApiService('/logout', 'POST');
+      if (response.success) {
+        localStorage.removeItem('bizwizusertoken');
+        localStorage.removeItem('bizzwiz-userId');
+        localStorage.removeItem('bizzwiz-userRole');
+        localStorage.removeItem('bizzwiz-selectedProjectId');
+        localStorage.removeItem('bizzwiz_form_data_id');
+        toast({
+          title: 'Déconnexion réussie',
+          description: 'Vous avez été déconnecté avec succès.',
+          variant: 'default',
+        });
+        navigate('/');
+      } else {
+        throw new Error(response.message || 'Échec de la déconnexion.');
+      }
+    } catch (error) {
+      toast({
+        title: 'Erreur',
+        description: error.message || 'Impossible de se déconnecter.',
+        variant: 'destructive',
+      });
+    }
+  };
+
   if (isLoading) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
@@ -180,6 +205,17 @@ const SelectProject = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
+      {/* Logout button styled like other page buttons */}
+      <div className="absolute top-8 right-8 z-50">
+        <Button
+          variant="outline"
+          onClick={handleLogout}
+          className="flex items-center gap-2"
+        >
+          <LogOut className="w-5 h-5" />
+          <span>Déconnexion</span>
+        </Button>
+      </div>
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-900/20 via-slate-900/10 to-transparent"></div>
       <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl animate-pulse"></div>
       <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
