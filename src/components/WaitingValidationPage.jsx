@@ -5,7 +5,7 @@ const WaitingValidationPage = () => {
   const handleNavigateToLogin = () => {
     // If user is logged in, go to dashboard, else go to login
     if (localStorage.getItem('bizwizusertoken') || localStorage.getItem('bizwizuser_id')) {
-      window.location.href = '/dashboard';
+      window.location.href = '/select-project';
     } else {
       window.location.href = '/login';
     }
