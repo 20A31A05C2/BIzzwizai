@@ -776,7 +776,7 @@ const AdminChat = () => {
 
   const downloadAttachment = async (attachment, messageId) => {
     const userRole = localStorage.getItem('bizzwiz-userRole');
-    const baseUrl = 'http://127.0.0.1:8000/api';
+    const baseUrl = 'https://app.bizzwiz.ai/api';
     const endpoint = userRole === 'admin'
       ? `/admin/chat-attachments/${messageId}/download`
       : `/user/chat-attachments/${messageId}/download`;
