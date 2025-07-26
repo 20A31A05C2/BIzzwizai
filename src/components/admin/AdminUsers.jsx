@@ -31,6 +31,13 @@ import {
   AlertDialogTitle,
   AlertDialogTrigger,
 } from '@/components/ui/alert-dialog';
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { toast } from '@/components/ui/use-toast';
 
 function AdminUsers() {
@@ -96,8 +103,8 @@ function AdminUsers() {
 
   const filteredUsers = users.filter(user => {
     const matchesSearch = user.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         user.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         user.projectType.toLowerCase().includes(searchTerm.toLowerCase());
+                          user.company.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                          user.projectType.toLowerCase().includes(searchTerm.toLowerCase());
     const matchesStatus = statusFilter === 'all' || user.status === statusFilter;
     return matchesSearch && matchesStatus;
   });
@@ -207,16 +214,25 @@ function AdminUsers() {
                   className="w-full pl-10 pr-4 py-2 bg-gray-50 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm text-black"
                 />
               </div>
-              <select
-                value={statusFilter}
-                onChange={(e) => setStatusFilter(e.target.value)}
-                className="px-3 sm:px-4 py-2 bg-gray-50 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-xs sm:text-base text-black"
-              >
-                <option value="all">Tous les statuts</option>
-                <option value="pending">En attente</option>
-                <option value="approved">Approuvés</option>
-                <option value="rejected">Rejetés</option>
-              </select>
+              <Select value={statusFilter} onValueChange={setStatusFilter}>
+                <SelectTrigger className="w-full sm:w-auto px-3 sm:px-4 py-2 bg-gray-50 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 text-xs sm:text-base text-black">
+                    <SelectValue placeholder="Tous les statuts" />
+                </SelectTrigger>
+                <SelectContent className="bg-gray-900 text-gray-50 border-gray-800">
+                    <SelectItem value="all" className="cursor-pointer focus:bg-purple-600 focus:text-gray-50">
+                      Tous les statuts
+                    </SelectItem>
+                    <SelectItem value="pending" className="cursor-pointer focus:bg-purple-600 focus:text-gray-50">
+                      En attente
+                    </SelectItem>
+                    <SelectItem value="approved" className="cursor-pointer focus:bg-purple-600 focus:text-gray-50">
+                      Approuvés
+                    </SelectItem>
+                    <SelectItem value="rejected" className="cursor-pointer focus:bg-purple-600 focus:text-gray-50">
+                      Rejetés
+                    </SelectItem>
+                </SelectContent>
+              </Select>
             </div>
 
             {/* Liste */}
