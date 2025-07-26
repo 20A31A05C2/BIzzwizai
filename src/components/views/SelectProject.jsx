@@ -11,16 +11,16 @@ import { LogOut } from 'lucide-react';
 const PaymentModal = ({ open, paymentUrl, onClose }) => {
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full text-center">
-        <h2 className="text-2xl font-bold mb-4 text-slate-900">Complete Payment</h2>
-        <p className="mb-6 text-slate-700">Please complete your payment to access the dashboard.</p>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+      <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 max-w-md w-full text-center">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-slate-900">Complete Payment</h2>
+        <p className="mb-6 text-slate-700 text-sm sm:text-base">Please complete your payment to access the dashboard.</p>
         <div className="flex flex-col gap-3">
           <a
             href={paymentUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center"
+            className="w-full bg-blue-600 text-white py-2 px-4 rounded hover:bg-blue-700 transition text-center text-sm sm:text-base"
           >
             Pay Now
           </a>
@@ -35,10 +35,10 @@ const PaymentModal = ({ open, paymentUrl, onClose }) => {
 const AppointmentModal = ({ open, onClose, onBook }) => {
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full text-center">
-        <h2 className="text-2xl font-bold mb-4 text-slate-900">Book an Appointment</h2>
-        <p className="mb-6 text-slate-700">To proceed with your project, please book an appointment with our team.</p>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+      <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 max-w-md w-full text-center">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-slate-900">Book an Appointment</h2>
+        <p className="mb-6 text-slate-700 text-sm sm:text-base">To proceed with your project, please book an appointment with our team.</p>
         <div className="flex flex-col gap-3">
           <Button onClick={onBook} className="w-full">Book Appointment</Button>
           <Button variant="outline" onClick={onClose} className="w-full">Cancel</Button>
@@ -52,10 +52,10 @@ const AppointmentModal = ({ open, onClose, onBook }) => {
 const AlreadyBookedModal = ({ open, onClose }) => {
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50">
-      <div className="bg-white rounded-lg shadow-lg p-8 max-w-md w-full text-center">
-        <h2 className="text-2xl font-bold mb-4 text-slate-900">Appointment Already Booked</h2>
-        <p className="mb-6 text-slate-700">You have already booked your appointment. Please wait for the admin to contact you.</p>
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 p-4">
+      <div className="bg-white rounded-lg shadow-lg p-6 sm:p-8 max-w-md w-full text-center">
+        <h2 className="text-xl sm:text-2xl font-bold mb-4 text-slate-900">Appointment Already Booked</h2>
+        <p className="mb-6 text-slate-700 text-sm sm:text-base">You have already booked your appointment. Please wait for the admin to contact you.</p>
         <Button variant="outline" onClick={onClose} className="w-full">Close</Button>
       </div>
     </div>
@@ -194,10 +194,10 @@ const SelectProject = () => {
 
   if (isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center">
+      <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 flex items-center justify-center p-4">
         <div className="flex flex-col items-center space-y-4">
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-pink-500"></div>
-          <p className="text-white/80 text-lg">Chargement des projets...</p>
+          <p className="text-white/80 text-lg text-center">Chargement des projets...</p>
         </div>
       </div>
     );
@@ -205,32 +205,37 @@ const SelectProject = () => {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 relative overflow-hidden">
-      {/* Logout button styled like other page buttons */}
-      <div className="absolute top-8 right-8 z-50">
-        <Button
-          variant="outline"
-          onClick={handleLogout}
-          className="flex items-center gap-2"
-        >
-          <LogOut className="w-5 h-5" />
-          <span>Déconnexion</span>
-        </Button>
-      </div>
+      {/* Background effects */}
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-purple-900/20 via-slate-900/10 to-transparent"></div>
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-pink-500/10 rounded-full blur-3xl animate-pulse"></div>
-      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
+      <div className="absolute top-1/4 left-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-pink-500/10 rounded-full blur-3xl animate-pulse"></div>
+      <div className="absolute bottom-1/4 right-1/4 w-64 sm:w-96 h-64 sm:h-96 bg-cyan-500/10 rounded-full blur-3xl animate-pulse delay-1000"></div>
       
-      <div className="relative z-10 container mx-auto px-6 py-12">
+      {/* Header with logout button */}
+      <div className="relative z-10">
+        <div className="flex justify-between items-start p-4 sm:p-6 lg:p-8">
+          <div className="flex-1"></div>
+          <Button
+            variant="outline"
+            onClick={handleLogout}
+            className="flex items-center gap-2 bg-slate-800/50 backdrop-blur-sm border-white/20 text-white hover:bg-slate-700/50 hover:border-pink-500/30 transition-all duration-300 text-sm sm:text-base"
+          >
+            <LogOut className="w-4 h-4 sm:w-5 sm:h-5" />
+            <span className="hidden sm:inline">Déconnexion</span>
+          </Button>
+        </div>
+      </div>
+      
+      <div className="relative z-10 container mx-auto px-4 sm:px-6 pb-12">
         <motion.div 
           initial={{ opacity: 0, y: -30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
-          className="text-center mb-16"
+          className="text-center mb-12 sm:mb-16"
         >
-          <h1 className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent mb-4">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold bg-gradient-to-r from-pink-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent mb-4 leading-tight">
             Sélectionner un Projet
           </h1>
-          <p className="text-white/70 text-lg max-w-2xl mx-auto">
+          <p className="text-white/70 text-base sm:text-lg max-w-2xl mx-auto px-4">
             Choisissez le projet sur lequel vous souhaitez travailler
           </p>
         </motion.div>
@@ -241,7 +246,7 @@ const SelectProject = () => {
             animate={{ opacity: 1, scale: 1 }}
             className="max-w-md mx-auto mb-8 p-4 bg-red-500/10 border border-red-500/20 rounded-lg backdrop-blur-sm"
           >
-            <p className="text-red-400 text-center">{error}</p>
+            <p className="text-red-400 text-center text-sm sm:text-base">{error}</p>
           </motion.div>
         )}
 
@@ -251,7 +256,7 @@ const SelectProject = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+              className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6 lg:gap-8"
             >
               {projects.map((project, index) => (
                 <motion.div
@@ -264,27 +269,27 @@ const SelectProject = () => {
                   className="group cursor-pointer"
                   onClick={() => handleProjectSelect(project.id)}
                 >
-                  <Card className="h-full p-8 bg-slate-800/40 backdrop-blur-xl border border-white/10 hover:border-pink-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/20 relative overflow-hidden">
+                  <Card className="h-full p-4 sm:p-6 lg:p-8 bg-slate-800/40 backdrop-blur-xl border border-white/10 hover:border-pink-500/30 transition-all duration-500 hover:shadow-2xl hover:shadow-pink-500/20 relative overflow-hidden">
                     <div className="absolute inset-0 bg-gradient-to-r from-pink-500/5 via-purple-500/5 to-cyan-500/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
                     <div className="relative z-10">
-                      <div className="w-16 h-16 bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
-                        <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <div className="w-12 h-12 sm:w-14 sm:h-14 lg:w-16 lg:h-16 bg-gradient-to-br from-pink-500 to-purple-600 rounded-xl mb-4 sm:mb-6 flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
+                        <svg className="w-6 h-6 sm:w-7 sm:h-7 lg:w-8 lg:h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012 2v2M7 7h10" />
                         </svg>
                       </div>
-                      <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-pink-400 transition-colors duration-300">
+                      <h3 className="text-lg sm:text-xl lg:text-2xl font-bold text-white mb-2 sm:mb-3 group-hover:text-pink-400 transition-colors duration-300 line-clamp-2">
                         {project.project_description || 'Projet sans titre'}
                       </h3>
-                      <div className="inline-flex items-center px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 mb-4">
-                        <span className="text-cyan-300 text-sm font-medium">
+                      <div className="inline-flex items-center px-2 sm:px-3 py-1 rounded-full bg-cyan-500/20 border border-cyan-500/30 mb-3 sm:mb-4">
+                        <span className="text-cyan-300 text-xs sm:text-sm font-medium">
                           {project.solution_type || 'Aucun type'}
                         </span>
                       </div>
-                      <div className="flex items-center justify-between text-sm text-white/60 mt-6">
+                      <div className="flex items-center justify-between text-xs sm:text-sm text-white/60 mt-4 sm:mt-6">
                         <span>Projet #{project.id}</span>
                         <div className="flex items-center space-x-1">
                           <span>Ouvrir</span>
-                          <svg className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                          <svg className="w-3 h-3 sm:w-4 sm:h-4 group-hover:translate-x-1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                           </svg>
                         </div>
@@ -301,15 +306,15 @@ const SelectProject = () => {
                 initial={{ opacity: 0, scale: 0.95 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ duration: 0.8 }}
-                className="text-center py-20"
+                className="text-center py-12 sm:py-20 px-4"
               >
-                <div className="w-24 h-24 bg-slate-700/50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <svg className="w-12 h-12 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 sm:w-20 sm:h-20 lg:w-24 lg:h-24 bg-slate-700/50 rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
+                  <svg className="w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 text-white/40" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012 2v2M7 7h10" />
                   </svg>
                 </div>
-                <h3 className="text-2xl font-semibold text-white mb-2">Aucun projet trouvé</h3>
-                <p className="text-white/60 max-w-md mx-auto">
+                <h3 className="text-xl sm:text-2xl font-semibold text-white mb-2">Aucun projet trouvé</h3>
+                <p className="text-white/60 max-w-md mx-auto text-sm sm:text-base">
                   Vous n'avez pas encore créé de projets. Commencez par créer votre premier projet.
                 </p>
               </motion.div>
@@ -317,6 +322,7 @@ const SelectProject = () => {
           )}
         </div>
       </div>
+      
       <PaymentModal
         open={showPaymentModal}
         paymentUrl={paymentUrl}
