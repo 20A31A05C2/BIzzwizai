@@ -119,10 +119,6 @@
 
 
 
-
-
-
-
 import React, { createContext, useState, useContext } from 'react';
 
 const FormContext = createContext();
@@ -177,59 +173,49 @@ export const FormProvider = ({ children }) => {
     }
   };
 
-  const resetForm = (mode = 'register') => {
-    if (formMode === mode && currentStep === 1 && JSON.stringify(formData) === JSON.stringify(getInitialFormData(mode))) {
-      console.log(`Form already reset for mode: ${mode}, skipping redundant reset`);
-      return;
-    }
-
-    const initialData = getInitialFormData(mode);
-    setFormData(initialData);
+  const resetForm = (mode = "register") => {
+    const resetData = mode === "dashboard" ? {
+      // Include motivation fields for dashboard mode since we now use StepUserMotivation
+      userMotivation: '',
+      userInspiration: '',
+      userConcerns: '',
+      projectName: '',
+      projectDescription: '',
+      solutionType: '',
+      audience: '',
+      features: [],
+      visualStyle: '',
+      timing: '',
+      budget: '',
+      missionPart1: '',
+      missionPart2: '',
+      missionPart3: '',
+    } : {
+      userName: '',
+      userEmail: '',
+      userPassword: '',
+      userRole: '',
+      userCompany: '',
+      userMotivation: '',
+      userInspiration: '',
+      userConcerns: '',
+      projectName: '',
+      projectDescription: '',
+      solutionType: '',
+      audience: '',
+      features: [],
+      visualStyle: '',
+      timing: '',
+      budget: '',
+      missionPart1: '',
+      missionPart2: '',
+      missionPart3: '',
+    };
+    setFormData(resetData);
     setCurrentStep(1);
-    setTotalSteps(mode === 'register' ? 11 : 9);
-    setFormMode(mode);
-    console.log('Form reset for mode:', mode);
-  };
-
-  const getInitialFormData = (mode) => {
-    return mode === 'dashboard'
-      ? {
-          userMotivation: '',
-          userInspiration: '',
-          userConcerns: '',
-          projectName: '',
-          projectDescription: '',
-          solutionType: '',
-          audience: '',
-          features: [],
-          visualStyle: '',
-          timing: '',
-          budget: '',
-          missionPart1: '',
-          missionPart2: '',
-          missionPart3: '',
-        }
-      : {
-          userName: '',
-          userEmail: '',
-          userPassword: '',
-          userRole: '',
-          userCompany: '',
-          userMotivation: '',
-          userInspiration: '',
-          userConcerns: '',
-          projectName: '',
-          projectDescription: '',
-          solutionType: '',
-          audience: '',
-          features: [],
-          visualStyle: '',
-          timing: '',
-          budget: '',
-          missionPart1: '',
-          missionPart2: '',
-          missionPart3: '',
-        };
+    // Fix: Set totalSteps to 9 for dashboard mode (was 8 before)
+    setTotalSteps(mode === "register" ? 11 : 9);
+    console.log("Form reset for mode:", mode);
   };
 
   return (
