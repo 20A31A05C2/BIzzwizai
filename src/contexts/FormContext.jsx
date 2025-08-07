@@ -53,6 +53,10 @@
 
 //   const resetForm = (mode = "register") => {
 //     const resetData = mode === "dashboard" ? {
+//       // Include motivation fields for dashboard mode since we now use StepUserMotivation
+//       userMotivation: '',
+//       userInspiration: '',
+//       userConcerns: '',
 //       projectName: '',
 //       projectDescription: '',
 //       solutionType: '',
@@ -87,7 +91,8 @@
 //     };
 //     setFormData(resetData);
 //     setCurrentStep(1);
-//     setTotalSteps(mode === "register" ? 11 : 8);
+//     // Fix: Set totalSteps to 9 for dashboard mode (was 8 before)
+//     setTotalSteps(mode === "register" ? 11 : 9);
 //     console.log("Form reset for mode:", mode);
 //   };
 
@@ -111,6 +116,15 @@
 //     </FormContext.Provider>
 //   );
 // };
+
+
+
+
+
+
+
+
+
 
 
 
@@ -144,6 +158,7 @@ export const FormProvider = ({ children }) => {
     missionPart2: '',
     missionPart3: '',
   });
+  const [formMode, setFormMode] = useState('register'); // Track current mode
 
   const updateFormData = (data) => {
     setFormData((prev) => ({ ...prev, ...data }));
@@ -167,49 +182,59 @@ export const FormProvider = ({ children }) => {
     }
   };
 
-  const resetForm = (mode = "register") => {
-    const resetData = mode === "dashboard" ? {
-      // Include motivation fields for dashboard mode since we now use StepUserMotivation
-      userMotivation: '',
-      userInspiration: '',
-      userConcerns: '',
-      projectName: '',
-      projectDescription: '',
-      solutionType: '',
-      audience: '',
-      features: [],
-      visualStyle: '',
-      timing: '',
-      budget: '',
-      missionPart1: '',
-      missionPart2: '',
-      missionPart3: '',
-    } : {
-      userName: '',
-      userEmail: '',
-      userPassword: '',
-      userRole: '',
-      userCompany: '',
-      userMotivation: '',
-      userInspiration: '',
-      userConcerns: '',
-      projectName: '',
-      projectDescription: '',
-      solutionType: '',
-      audience: '',
-      features: [],
-      visualStyle: '',
-      timing: '',
-      budget: '',
-      missionPart1: '',
-      missionPart2: '',
-      missionPart3: '',
-    };
-    setFormData(resetData);
+  const resetForm = (mode = 'register') => {
+    if (formMode === mode && currentStep === 1 && JSON.stringify(formData) === JSON.stringify(getInitialFormData(mode))) {
+      console.log(Form already reset for mode: ${mode}, skipping redundant reset);
+      return;
+    }
+
+    const initialData = getInitialFormData(mode);
+    setFormData(initialData);
     setCurrentStep(1);
-    // Fix: Set totalSteps to 9 for dashboard mode (was 8 before)
-    setTotalSteps(mode === "register" ? 11 : 9);
-    console.log("Form reset for mode:", mode);
+    setTotalSteps(mode === 'register' ? 11 : 9);
+    setFormMode(mode);
+    console.log('Form reset for mode:', mode);
+  };
+
+  const getInitialFormData = (mode) => {
+    return mode === 'dashboard'
+      ? {
+          userMotivation: '',
+          userInspiration: '',
+          userConcerns: '',
+          projectName: '',
+          projectDescription: '',
+          solutionType: '',
+          audience: '',
+          features: [],
+          visualStyle: '',
+          timing: '',
+          budget: '',
+          missionPart1: '',
+          missionPart2: '',
+          missionPart3: '',
+        }
+      : {
+          userName: '',
+          userEmail: '',
+          userPassword: '',
+          userRole: '',
+          userCompany: '',
+          userMotivation: '',
+          userInspiration: '',
+          userConcerns: '',
+          projectName: '',
+          projectDescription: '',
+          solutionType: '',
+          audience: '',
+          features: [],
+          visualStyle: '',
+          timing: '',
+          budget: '',
+          missionPart1: '',
+          missionPart2: '',
+          missionPart3: '',
+        };
   };
 
   return (
@@ -226,6 +251,7 @@ export const FormProvider = ({ children }) => {
         prevStep,
         goToStep,
         resetForm,
+        formMode,
       }}
     >
       {children}
