@@ -1,0 +1,1255 @@
+{
+    "nav": {
+      "ourWork": "عملنا",
+      "process": "العملية",
+      "services": "الخدمات",
+      "contact": "اتصل بنا",
+      "home": "العودة إلى الصفحة الرئيسية",
+      "toggleMenu": "تبديل القائمة",
+      "getStarted": "ابدأ"
+    },
+    "hero": {
+      "title": "رؤيتك، بناها الخبراء",
+      "description": "تتبع التقدم بينما نتولى الباقي",
+      "startProject": "ابدأ مشروعي"
+    },
+    "ourWorks": {
+      "title": "عملنا",
+      "description": "اكتشف كيف نحن نجعل الأفكار تنبض بالحياة من خلال مشاريع حقيقية."
+    },
+    "howItWorks": {
+      "title": "كيف يعمل",
+      "step1": "الخطوة 1",
+      "startProjectTitle": "ابدأ مشروعك",
+      "startProjectDescription": "املأ نموذجًا بسيطًا متعدد الخطوات لمشاركة فكرتك ومعلومات عملك. لا حاجة للمصطلحات التقنية.",
+      "step2": "الخطوة 2",
+      "planLogoTitle": "احصل على خطتك وشعارك",
+      "planLogoDescription": "احصل على خطة أعمال مخصصة وقم بإنشاء شعار علامتك التجارية الذي تم إنشاؤه بواسطة الذكاء الاصطناعي على الفور.",
+      "step3": "الخطوة 3",
+      "validationCallTitle": "مكالمة التحقق",
+      "validationCallDescription": "سيتواصل معك أحد مستشارينا خلال 24 ساعة لفهم مشروعك والتحقق منه.",
+      "step4": "الخطوة 4",
+      "dashboardAccessTitle": "الوصول إلى لوحة التحكم",
+      "dashboardAccessDescription": "بمجرد الموافقة على مشروعك ودفع قيمته، يمكنك الوصول إلى لوحة التحكم الكاملة الخاصة بك مع النماذج الأولية، والجداول الزمنية، والملفات، والتحديثات في الوقت الفعلي."
+    },
+    "features": {
+      "title": "خدماتنا",
+      "description": "حلول رقمية شاملة لدفع عملك للأمام",
+      "cta": "هل أنت جاهز للبدء؟",
+      "bizzHub": {
+        "title": "BIZZ HUB",
+        "description": "إنشاء سريع لمشروعك الرقمي",
+        "aiBusinessPlanTitle": "خطة أعمال بالذكاء الاصطناعي",
+        "aiBusinessPlanDescription": "تخطيط واستراتيجية أعمال مدعومة بالذكاء الاصطناعي",
+        "logoIdentityTitle": "الشعار والهوية البصرية",
+        "logoIdentityDescription": "حلول تصميم شاملة للهوية البصرية والعلامة التجارية",
+        "figmaMockupTitle": "نموذج فيغما",
+        "figmaMockupDescription": "نماذج ونماذج أولية لتصميم واجهة المستخدم/تجربة المستخدم الاحترافية",
+        "quoteRoadmapTitle": "عرض أسعار + خارطة طريق",
+        "quoteRoadmapDescription": "عروض أسعار مفصلة للمشروع مع خارطات طريق شاملة",
+        "liveDashboardTitle": "لوحة تحكم مباشرة",
+        "liveDashboardDescription": "تحليلات وتتبع الأداء في الوقت الفعلي"
+      },
+      "wizGrow": {
+        "title": "WIZ GROW",
+        "description": "تعزيز بصري لنموك",
+        "miniCrmTitle": "ميني CRM",
+        "miniCrmDescription": "إدارة مبسطة لعلاقات العملاء",
+        "aiEmailingTitle": "تسويق البريد الإلكتروني بالذكاء الاصطناعي",
+        "aiEmailingDescription": "حملات تسويق عبر البريد الإلكتروني مدعومة بالذكاء الاصطناعي",
+        "seoAnalysisTitle": "تحليل ومحاكاة SEO",
+        "seoAnalysisDescription": "أدوات متقدمة لتحليل ومحاكاة تحسين محركات البحث",
+        "marketingFunnelTitle": "قمع التسويق",
+        "marketingFunnelDescription": "استراتيجيات قمع تسويق محسنة",
+        "templatesScriptsTitle": "قوالب وسكربتات",
+        "templatesScriptsDescription": "قوالب جاهزة للاستخدام وسكربتات أتمتة"
+      }
+    },
+    "contactUs": {
+      "title": "لنتواصل",
+      "description": "هل لديك سؤال أو ترغب في التعاون؟ يسعدنا أن نسمع منك. املأ النموذج، وسنرد عليك خلال 24 ساعة.",
+      "emailTitle": "تواصل معنا عبر البريد الإلكتروني",
+      "emailLabel": "البريد الإلكتروني",
+      "emailPlaceholder": "بريدك.الإلكتروني@مثال.com",
+      "nameLabel": "الاسم",
+      "namePlaceholder": "اسمك الكامل",
+      "messageLabel": "الرسالة",
+      "messagePlaceholder": "أخبرنا عن مشروعك، أفكارك، أو أسئلتك...",
+      "responseTimeTitle": "وقت الرد",
+      "responseTimeDescription": "خلال 24 ساعة",
+      "submitButton": "إرسال الرسالة",
+      "submitting": "جارٍ إرسال الرسالة...",
+      "errorEmptyFields": "يرجى ملء جميع الحقول في نموذج الاتصال.",
+      "errorSubmit": "خطأ في الإرسال: حدث خطأ أثناء إرسال الرسالة.",
+      "successTitle": "تم إرسال الرسالة بنجاح! 🎉",
+      "successMessage": "🛰️ تم إرسال الرسالة! تم إرسال رسالتك عبر الفضاء الافتراضي. سنرد عليك في أقرب وقت ممكن!",
+      "successDescription": "شكرًا لتواصلك معنا. سنرد خلال 24 ساعة."
+    },
+    "ending": {
+      "title": "ابنِ مستقبلك الرقمي مع BizzWiz AI",
+      "description": "انضم إلى المؤسسين والفرق التي تستخدم BizzWiz AI لتحويل أفكارهم إلى مواقع ومنتجات عالية الأداء — من التخطيط إلى الإطلاق، بسرعة وثقة.",
+      "cta": "ابدأ مشروعي",
+      "imageAlt": "أيقونة BizzWiz"
+    },
+    "footer": {
+      "logoAlt": "شعار BizzwizAI",
+      "description": "نحن نجعل رؤاك الرقمية تنبض بالحياة مع تكنولوجيا متقدمة وتميز إبداعي. نجاحك هو مهمتنا.",
+      "address": "ربع السديم، محطة BizzWiz-01",
+      "copyright": "© 2025 BizzwizAI. جميع الحقوق محفوظة. مبني بحب ❤️",
+      "categories": {
+        "services": "الخدمات",
+        "company": "الشركة",
+        "resources": "الموارد"
+      },
+      "services": {
+        "webDevelopment": "تطوير الويب",
+        "mobileApps": "تطبيقات المحمول",
+        "uiUxDesign": "تصميم UI/UX",
+        "digitalMarketing": "التسويق الرقمي",
+        "consulting": "الاستشارات"
+      },
+      "company": {
+        "aboutUs": "عنا",
+        "ourTeam": "فريقنا",
+        "careers": "الوظائف",
+        "contact": "الاتصال",
+        "blog": "المدونة"
+      },
+      "resources": {
+        "documentation": "الوثائق",
+        "helpCenter": "مركز المساعدة",
+        "privacyPolicy": "سياسة الخصوصية",
+        "termsOfUse": "شروط الاستخدام",
+        "cookiePolicy": "سياسة الكوكيز"
+      }
+    },
+    "login": {
+    "title": "Bizzwiz AI",
+    "imageAlt": "ماسكوت نحلة 3D مستقبلية لـ BizzWiz AI مع لمسات بنفسجية وزرقاء نيون، أسلوب سيبرانك فاخر",
+    "email": {
+      "label": "البريد الإلكتروني",
+      "placeholder": "اسم.المستخدم@مجرتك.كوم"
+    },
+    "password": {
+      "label": "كلمة المرور",
+      "placeholder": "••••••••••••"
+    },
+    "submit": "تسجيل الدخول",
+    "submitting": "جارٍ تسجيل الدخول...",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "backToLogin": "العودة إلى تسجيل الدخول",
+    "noAccount": "ليس لديك حساب؟",
+    "createAccount": "إنشاء حساب",
+    "success": {
+      "title": "تسجيل الدخول ناجح",
+      "description": {
+        "admin": "مرحبًا بك أدمن!",
+        "user": "مرحبًا بك مستخدم!"
+      }
+    },
+    "error": {
+      "title": "خطأ في تسجيل الدخول",
+      "generic": "حدث خطأ أثناء تسجيل الدخول.",
+      "invalidCredentials": "بيانات الاعتماد غير صالحة.",
+      "email": {
+        "title": "مشكلة في البريد الإلكتروني",
+        "required": "البريد الإلكتروني مطلوب.",
+        "notFound": "هذا البريد الإلكتروني غير موجود في نظامنا.",
+        "invalidFormat": "تنسيق البريد الإلكتروني غير صالح."
+      },
+      "password": {
+        "title": "مشكلة في كلمة المرور",
+        "required": "كلمة المرور مطلوبة.",
+        "incorrect": "كلمة المرور المدخلة غير صحيحة.",
+        "minLength": "يجب أن تحتوي كلمة المرور على 6 أحرف على الأقل."
+      },
+      "credentials": {
+        "title": "بيانات اعتماد غير صالحة",
+        "invalid": "البريد الإلكتروني أو كلمة المرور غير صحيحة."
+      },
+      "account": {
+        "title": "مشكلة في الحساب",
+        "unverified": "حسابك لم يتم التحقق منه بعد. يرجى التحقق من بريدك الإلكتروني.",
+        "suspended": "تم تعليق حسابك مؤقتًا. اتصل بالدعم."
+      },
+      "accessDenied": {
+        "title": "رفض الوصول",
+        "message": "البريد الإلكتروني أو كلمة المرور غير صحيحة. حاول مرة أخرى."
+      },
+      "invalidData": {
+        "title": "بيانات غير صالحة",
+        "message": "يرجى التحقق من المعلومات المدخلة."
+      },
+      "tooManyAttempts": {
+        "title": "محاولات كثيرة جدًا",
+        "message": "محاولات تسجيل دخول كثيرة جدًا. يرجى الانتظار لبضع دقائق."
+      },
+      "server": {
+        "title": "خطأ في الخادم",
+        "message": "مشكلة مؤقتة في الخادم. يرجى المحاولة لاحقًا."
+      },
+      "network": {
+        "title": "مشكلة في الاتصال",
+        "message": "غير قادر على الاتصال بالخادم. تحقق من اتصالك بالإنترنت."
+      },
+      "checkCredentials": "يرجى التحقق من بيانات اعتمادك."
+    },
+    "reset": {
+      "title": "إعادة تعيين كلمة المرور",
+      "submit": "إرسال البريد الإلكتروني",
+      "submitting": "جارٍ الإرسال...",
+      "emailRequired": {
+        "title": "البريد الإلكتروني مطلوب",
+        "message": "يرجى إدخال بريدك الإلكتروني."
+      },
+      "success": {
+        "title": "تم إرسال البريد الإلكتروني",
+        "message": "تم إرسال رابط إعادة التعيين إلى بريدك الإلكتروني. تحقق من صندوق الوارد."
+      },
+      "error": {
+        "title": "خطأ",
+        "generic": "فشل في إرسال رابط إعادة التعيين.",
+        "email": {
+          "title": "مشكلة في البريد الإلكتروني",
+          "notFound": "هذا البريد الإلكتروني غير موجود في نظامنا.",
+          "invalidFormat": "تنسيق البريد الإلكتروني غير صالح."
+        },
+        "tooMany": {
+          "title": "طلبات كثيرة جدًا",
+          "message": "لقد طلبت رابط إعادة تعيين بالفعل. يرجى الانتظار قبل طلب جديد."
+        },
+        "alreadySent": {
+          "title": "طلب تم بالفعل",
+          "message": "تم إرسال رابط إعادة التعيين بالفعل. تحقق من بريدك الإلكتروني."
+        },
+        "server": {
+          "title": "خطأ في الخادم",
+          "message": "مشكلة مؤقتة في الخادم. يرجى المحاولة لاحقًا."
+        },
+        "network": {
+          "title": "مشكلة في الاتصال",
+          "message": "غير قادر على الاتصال بالخادم. تحقق من اتصالك بالإنترنت."
+        }
+      }
+    },
+    "instructions": {
+      "title": "كيف تبدأ",
+      "step1": "يرجى تسجيل الدخول إلى حسابك باستخدام بريدك الإلكتروني وكلمة المرور.",
+      "step2": "سجل تفاصيل مشروعك هنا أو أنشئ تفاصيل مشروعك.",
+      "step3": "أنشئ خطة أعمال تلقائيًا، يمكنك تنزيلها واستخدامها لتوليد شعار شركة.",
+      "step4": "أنشئ شعار AI، يمكن إنشاء شعار.",
+      "step5": "احجز موعدًا للمشروع المختار.",
+      "step6": "انتظر حتى يتصل بك المسؤول بشأن موعدك والدفع.",
+      "step7": "قم بدفع المبلغ مقابل المشروع المحجوز بعد تأكيد المسؤول.",
+      "step8": "بمجرد حجز الموعد وإتمام الدفع، احصل على جميع ميزات لوحة التحكم."
+    }
+  },
+  "register": {
+      "passwordLabel": "كلمة المرور",
+      "passwordConfirmationLabel": "تأكيد كلمة المرور",
+      "companyLabel": "شركتك",
+      "companyOptional": "(اختياري)",
+      "companyPlaceholder": "مثال: شركة BizzWiz AI",
+      "submitButton": "تسجيل",
+      "submitting": "جارٍ التسجيل...",
+      "alreadyHaveAccount": "هل لديك حساب بالفعل؟",
+      "loginLink": "تسجيل الدخول",
+      "passwordStrength": {
+        "label": "قوة كلمة المرور:",
+        "minLength": "8 أحرف على الأقل",
+        "uppercase": "حرف كبير واحد",
+        "lowercase": "حرف صغير واحد",
+        "number": "رقم واحد",
+        "specialChar": "حرف خاص واحد"
+      },
+      "errors": {
+        "userName": {
+          "required": "الاسم الكامل مطلوب",
+          "minLength": "يجب أن يتكون الاسم من حرفين على الأقل",
+          "maxLength": "لا يمكن أن يتجاوز الاسم 50 حرفًا"
+        },
+        "userEmail": {
+          "required": "عنوان البريد الإلكتروني مطلوب",
+          "invalid": "تنسيق البريد الإلكتروني غير صالح"
+        },
+        "userPassword": {
+          "required": "كلمة المرور مطلوبة",
+          "minLength": "يجب أن تتكون كلمة المرور من 8 أحرف على الأقل"
+        },
+        "userPasswordConfirmation": {
+          "required": "تأكيد كلمة المرور مطلوب",
+          "mismatch": "كلمات المرور غير متطابقة"
+        },
+        "userCompany": {
+          "maxLength": "لا يمكن أن يتجاوز اسم الشركة 100 حرف"
+        },
+        "validationTitle": "خطأ في التحقق",
+        "validationDescription": "يرجى تصحيح الأخطاء في النموذج.",
+        "submitTitle": "خطأ التسجيل",
+        "submitDefault": "حدث خطأ أثناء التسجيل.",
+        "submitEmailUsed": "عنوان البريد الإلكتروني هذا مستخدم بالفعل.",
+        "submitInvalidName": "الاسم المقدم غير صالح.",
+        "submitInvalidPassword": "كلمة المرور لا تلبي متطلبات الأمان.",
+        "submitPasswordMismatch": "تأكيد كلمة المرور لا يتطابق."
+      },
+      "successTitle": "تم التسجيل بنجاح!",
+      "successDescription": "تم إنشاء حسابك بنجاح. يرجى التحقق من بريدك الإلكتروني لتفعيل حسابك.",
+      "instructions": {
+        "step1": "سجل الدخول إلى حسابك باستخدام بريدك الإلكتروني وكلمة المرور.",
+        "step2": "سجل تفاصيل مشروعك هنا أو أنشئ تفاصيل مشروعك.",
+        "step3": "قم بإنشاء خطة أعمال تلقائيًا؛ يمكنك تنزيلها وإنشاء شعار شركة مفيد للأعمال.",
+        "step4": "قم بإنشاء شعار بالذكاء الاصطناعي؛ يمكن إنشاء شعار.",
+        "step5": "احجز موعدًا للمشروع المختار.",
+        "step6": "انتظر حتى يتواصل معك أحد المسؤولين بخصوص موعدك والدفع.",
+        "step7": "قم بإجراء الدفع للمشروع المحجوز بعد تأكيد المسؤول.",
+        "step8": "بمجرد حجز الموعد وإجراء الدفع، يمكنك الوصول إلى جميع ميزات لوحة التحكم الخاصة بالمستخدم."
+      }
+    },
+    "selectProject": {
+    "title": "اختيار مشروع",
+    "subtitle": "اختر المشروع الذي ترغب في العمل عليه",
+    "createProject": "إنشاء مشروع جديد",
+    "project": {
+      "untitled": "مشروع بدون عنوان",
+      "noType": "لا يوجد نوع",
+      "idPrefix": "مشروع",
+      "open": "فتح"
+    },
+    "noProjects": {
+      "title": "لا يوجد مشاريع",
+      "description": "لم تقم بإنشاء أي مشاريع بعد. ابدأ بإنشاء مشروعك الأول."
+    },
+    "loading": "جارٍ تحميل المشاريع...",
+    "error": {
+      "title": "خطأ",
+      "userNotIdentified": "المستخدم غير معرف.",
+      "fetchFailed": "فشل تحميل المشاريع.",
+      "invalidProjectId": "معرف المشروع غير صالح.",
+      "statusCheckFailed": "غير قادر على التحقق من حالة المشروع."
+    },
+    "selectionRequired": {
+      "title": "اختيار مطلوب",
+      "description": "يرجى اختيار مشروع أولاً."
+    },
+    "info": {
+      "title": "معلومات",
+      "noPayment": "لا يوجد دفع مطلوب في الوقت الحالي."
+    },
+    "auth": {
+      "accessDenied": {
+        "title": "رفض الوصول",
+        "description": "يرجى تسجيل الدخول للوصول إلى هذه الصفحة."
+      }
+    },
+    "logout": {
+      "success": {
+        "title": "تسجيل الخروج ناجح",
+        "description": "تم تسجيل الخروج بنجاح."
+      },
+      "error": {
+        "failed": "غير قادر على تسجيل الخروج."
+      }
+    },
+    "logoutButton": "تسجيل الخروج",
+    "paymentModal": {
+      "title": "إتمام الدفع",
+      "description": "يرجى إتمام الدفع للوصول إلى لوحة التحكم.",
+      "payNow": "ادفع الآن",
+      "cancel": "إلغاء"
+    },
+    "appointmentModal": {
+      "title": "حجز موعد",
+      "description": "للمتابعة مع مشروعك، يرجى حجز موعد مع فريقنا.",
+      "book": "حجز موعد",
+      "cancel": "إلغاء"
+    },
+    "alreadyBookedModal": {
+      "title": "موعد محجوز مسبقًا",
+      "description": "لقد حجزت موعدًا بالفعل. يرجى الانتظار حتى يتصل بك المسؤول.",
+      "close": "إغلاق"
+    }
+  },
+  "stepWelcome": {
+    "title": "مرحبًا بك في عالم BizzWiz AI",
+    "description": "أنت لست مجرد ملء استمارة. أنت تشارك في إنشاء مشروعك الرقمي.",
+    "button": "بدء الإبداع المشترك",
+    "imageAlt": "ماسكوت نحلة 3D مستقبلية لـ BizzWiz AI مع لمسات بنفسجية وزرقاء نيون، أسلوب سيبرانك فاخر"
+  },
+  "stepDescribeProject": {
+    "chatMessage": "صفّ مشروعك. كلما كان أوضح، كان ذلك أفضل للذكاء الاصطناعي الخاص بنا!",
+    "projectName": {
+      "label": "اسم المشروع:",
+      "placeholder": "مثال: منصة الموسيقى الحية"
+    },
+    "projectDescription": {
+      "label": "فكرتك، كلماتك:",
+      "placeholder": "مثال: منصة لربط الموسيقيين المستقلين بقاعات الحفلات المحلية الصغيرة، مع نظام تطابق يعتمد على أسلوب الموسيقى والتوفر..."
+    },
+    "prevButton": "السابق",
+    "nextButton": "التالي",
+    "error": {
+      "title": "خطأ في التحقق",
+      "description": "يرجى ملء اسم المشروع والوصف."
+    }
+  },
+  "stepUserMotivation": {
+    "chatMessage": "أخبرنا بما يحفزك لهذا المشروع.",
+    "userMotivation": {
+      "label": "ما هي الدافع الرئيسي وراء هذا المشروع؟",
+      "placeholder": "مثال: حل مشكلة عاجلة، استكشاف شغف، الابتكار في مجالي..."
+    },
+    "userInspiration": {
+      "label": "هل هناك مشاريع أو أفكار أو أشخاص يلهمونك لهذا؟ (اختياري)",
+      "placeholder": "مثال: أعجبني نهج [الشركة X]، أو أنا مستوحى من [الشخص Y]..."
+    },
+    "userConcerns": {
+      "label": "هل لديك مخاوف أو قلق معين بشأن هذا المشروع؟ (اختياري)",
+      "placeholder": "مثال: خوف من نقص المهارات التقنية، قلق بشأن الميزانية، صعوبة في الوصول إلى الجمهور المستهدف..."
+    },
+    "prevButton": "السابق",
+    "nextButton": "التالي",
+    "error": {
+      "title": "خطأ في التحقق",
+      "description": "يرجى تقديم دافعك الرئيسي."
+    }
+  },
+  "stepSolutionType": {
+    "chatMessage": "نوع الحل. ما هي الصورة التي سيأخذها مشروعك؟",
+    "webApp": "تطبيق ويب",
+    "mobileApp": "تطبيق هاتف محمول",
+    "landingPage": "صفحة هبوط",
+    "aiTool": "أداة ذكاء اصطناعي",
+    "other": "آخر",
+    "prevButton": "السابق",
+    "nextButton": "التالي"
+  },
+  "stepAudience": {
+    "chatMessage": "الجمهور المستهدف. من يستهدف حلك بشكل أساسي؟",
+    "b2c": "B2C (الجمهور العام)",
+    "b2b": "B2B (الشركات)",
+    "internal": "داخلي (الفريق/المنظمة)",
+    "niche": "نطاق محدد",
+    "prevButton": "السابق",
+    "nextButton": "التالي"
+  },
+  "stepFeatures": {
+    "chatMessage": "الميزات الرئيسية. ما هي القدرات الأساسية لمشروعك؟",
+    "auth": "المصادقة على المستخدم",
+    "payment": "نظام الدفع",
+    "chat": "المراسلة / الدردشة",
+    "dashboard": "لوحة تحكم تحليلية",
+    "admin": "لوحة الإدارة",
+    "search": "البحث المتقدم",
+    "notifications": "إشعارات الدفع/البريد الإلكتروني",
+    "prevButton": "السابق",
+    "nextButton": "التالي"
+  },
+  "stepVisualStyle": {
+    "chatMessage": "الأسلوب البصري المفضل. ما هي الأجواء التي تريد لمشروعك؟",
+    "classic": "كلاسيكي",
+    "futuristic": "مستقبلي",
+    "colorful": "ملون",
+    "minimalist": "مينيمالي",
+    "premium": "فاخر",
+    "prevButton": "السابق",
+    "nextButton": "التالي"
+  },
+  "fontSelection": {
+    "chatMessage": "الخطوط. اختر خطًا لشعارك.",
+    "prevButton": "السابق",
+    "nextButton": "التالي",
+    "sampleText": "نص عينة"
+  },
+  "colorPaletteSelection": {
+    "chatMessage": "لوحة الألوان. اكتشف وأنشئ لوحات ألوان مثالية لشعارك.",
+    "createTitle": "أنشئ لوحة ألوانك",
+    "yourPalette": "لوحتك",
+    "generateLabel": "إنشاء لوحة ألوان جديدة",
+    "generateButton": "إنشاء تلقائي",
+    "addLabel": "إضافة لون جديد",
+    "addButton": "إضافة لون",
+    "copyColorLabel": "نسخ اللون {color}",
+    "colorInputLabel": "قيمة اللون {index}",
+    "removeLabel": "حذف اللون {index}",
+    "popularPalettes": "اللوحات الشائعة",
+    "presetLabel": "تحميل لوحة مسبقة {index}",
+    "fineTuneTitle": "ضبط الألوان",
+    "colorLabel": "لون {index}",
+    "colorPickerLabel": "اختر اللون {index}",
+    "cssTitle": "CSS المُنشأ",
+    "prevButton": "السابق",
+    "saveLabel": "حفظ لوحة الألوان",
+    "saveButton": "حفظ اللوحة",
+    "nextButton": "التالي",
+    "saveAlert": "تم نسخ CSS لوحة الألوان إلى الحافظة!",
+    "copyAlert": "تم نسخ اللون {color} إلى الحافظة!"
+  },
+  "stepTiming": {
+    "chatMessage": "الوقت / الطوارئ. ما هو الموعد النهائي المثالي لهذا المشروع؟",
+    "urgent": "عاجل (فوراً)",
+    "fast": "سريع (< 3 أشهر)",
+    "standard": "قياسي (3-6 أشهر)",
+    "flexible": "مرن (> 6 أشهر)",
+    "prevButton": "السابق",
+    "nextButton": "التالي"
+  },
+  "stepBudget": {
+    "chatMessage": "الميزانية المقدرة. ما هي نطاق الميزانية الخاص بك لهذا المشروع؟",
+    "lessThan2k": "< 2k€",
+    "2kTo5k": "2k€ - 5k€",
+    "5kTo10k": "5k€ - 10k€",
+    "moreThan10k": "10k€ +",
+    "prevButton": "السابق",
+    "nextButton": "التالي"
+  },
+  "stepMission": {
+    "chatMessage": "مهمتك في جملة واحدة. قم بتلخيص جوهر مشروعك.",
+    "labelPart1": "أريد مساعدة",
+    "placeholderPart1": "[جمهوري المستهدف]",
+    "ariaLabelPart1": "أدخل الجمهور المستهدف للمساعدة",
+    "labelPart2": "ل",
+    "placeholderPart2": "[حل مشكلتهم / تحقيق هدفهم]",
+    "ariaLabelPart2": "أدخل المشكلة لحلها أو الهدف لتحقيقه",
+    "labelPart3": "من خلال",
+    "placeholderPart3": "[حلي الفريد]",
+    "ariaLabelPart3": "أدخل الحل الفريد",
+    "exampleText": "مثال: أريد مساعدة المستقلين الإبداعيين على إيجاد المزيد من العملاء من خلال منصة تكوين علاقات ذكية.",
+    "prevButton": "السابق",
+    "submitButton": "تقديم المشروع ✨"
+  },
+  "progressBar": {
+    "ariaLabel": "شريط تقدم المشروع",
+    "stepLabel": "الخطوة {{current}} من {{total}}"
+  },
+  "multiStepForm": {
+    "ariaLabel": "نموذج المشروع متعدد الخطوات",
+    "loadingTitle": "إنشاء مشروعك",
+    "loadingDescription": "معالجة تفاصيل مشروعك وتوليد خطة العمل الخاصة بك...",
+    "successTitle": "🚀 نجاح",
+    "successDescription": "تم إنشاء المشروع بنجاح.",
+    "errorTitle": "خطأ",
+    "incompleteForm": "يرجى ملء جميع الحقول المطلوبة قبل الإرسال.",
+    "notLoggedIn": "المستخدم غير مسجل الدخول. يرجى تسجيل الدخول والمحاولة مرة أخرى.",
+    "submissionFailure": "فشل الإرسال.",
+    "validationFailed": "فشل التحقق من الصحة: ",
+    "networkError": "خطأ في الشبكة، يرجى التحقق من اتصالك بالإنترنت."
+  },
+  "multiStepFormView": {
+    "ariaLabel": "عرض نموذج متعدد الخطوات",
+    "successTitle": "🎉 رؤية مشتركة!",
+    "successDescription": "تم تقديم مشروعك بنجاح. نحن متحمسون لتحويله إلى واقع!"
+  },
+  "businessComponent": {
+    "ariaLabel": "مكون الخطة التجارية",
+    "contentAriaLabel": "منطقة محتوى الخطة التجارية",
+    "actionsAriaLabel": "لوحة أوامر الخطة التجارية",
+    "title": "خطتك التجارية",
+    "subtitle": "اكتشف خطتك التجارية المخصصة وبدأ رحلتك الريادية",
+    "contentTitle": "خطة تجارية كاملة",
+    "contentSubtitle": "خطة تجارية مفصلة وشخصية",
+    "loading": "جارٍ تحميل الخطة التجارية...",
+    "errorUserId": "معرف المستخدم أو معرف بيانات النموذج غير موجود",
+    "fetchFailure": "فشل في جلب الخطة التجارية",
+    "planAlreadyExists": "الخطة التجارية موجودة بالفعل، لا حاجة لتوليد جديد.",
+    "downloadTitle": "الخطة التجارية",
+    "downloadFileName": "خطة-تجارية.pdf",
+    "downloadButton": "تحميل الخطة التجارية (PDF)",
+    "downloadAriaLabel": "تحميل الخطة التجارية كملف PDF",
+    "validationTitle": "التحقق",
+    "validationDescription": "ضع علامة على هذه الخطة التجارية كمحققة للانتقال إلى الخطوة التالية",
+    "validateButton": "تحقق من الخطة",
+    "validated": "تم التحقق",
+    "validateAriaLabel": "تحقق من الخطة التجارية",
+    "validatedAriaLabel": "الخطة التجارية تم التحقق منها",
+    "validationDialogTitle": "تأكيد التحقق",
+    "validationDialogDescription": "هل أنت متأكد من رغبتك في التحقق من هذه الخطة التجارية؟",
+    "validationWarning": "تحذير:",
+    "validationNoReturn": "بمجرد التأكيد، لن يكون هناك عودة ممكنة.",
+    "validationNextStep": "هذا الإجراء سيضع علامة على خطتك التجارية كمحققة ويسمح لك بالانتقال إلى الخطوة التالية.",
+    "cancelValidation": "إلغاء",
+    "cancel": "إلغاء",
+    "confirmValidation": "تأكيد التحقق",
+    "aiModificationTitle": "تعديل الذكاء الاصطناعي",
+    "aiModificationDescription": "اطلب التعديلات عبر الذكاء الاصطناعي ({{remaining}} استخدامات متبقية)",
+    "aiModificationButton": "طلب التعديل",
+    "aiLimitReached": "تم الوصول إلى الحد الأقصى",
+    "aiModificationAriaLabel": "طلب تعديل من الذكاء الاصطناعي",
+    "aiLimitReachedAriaLabel": "تم الوصول إلى حد التعديلات بالذكاء الاصطناعي",
+    "aiModificationModalTitle": "طلب تعديل الذكاء الاصطناعي",
+    "aiModificationLabel": "صف التعديلات المطلوبة",
+    "aiModificationPlaceholder": "مثال: أضف تفاصيل إضافية لاستراتيجية التسويق، عدّل القسم المالي...",
+    "aiModificationInputAriaLabel": "أدخل طلب تعديل الذكاء الاصطناعي",
+    "submitModification": "إرسال الطلب",
+    "submitModificationAriaLabel": "إرسال طلب تعديل الذكاء الاصطناعي",
+    "closeModal": "إغلاق النافذة",
+    "manualEditTitle": "التعديل اليدوي",
+    "manualEditDescription": "عدّل محتوى الخطة التجارية يدويًا",
+    "manualEditButton": "عدّل الخطة",
+    "manualEditAriaLabel": "عدّل الخطة التجارية يدويًا",
+    "manualEditModalTitle": "التعديل اليدوي",
+    "manualEditLabel": "محتوى الخطة التجارية",
+    "manualEditPlaceholder": "عدّل محتوى الخطة التجارية هنا...",
+    "manualEditInputAriaLabel": "أدخل التعديلات اليدوية للخطة التجارية",
+    "saveEdit": "حفظ التعديلات",
+    "saveEditAriaLabel": "حفظ التعديلات اليدوية"
+  },
+  "logoComponent": {
+    "ariaLabel": "مكون توليد الشعار",
+    "chatAriaLabel": "منطقة الدردشة لتوليد الشعار",
+    "logoPreviewAriaLabel": "معاينة الشعار المُولد",
+    "actionsAriaLabel": "لوحة أوامر توليد الشعار",
+    "title": "توليد الشعار",
+    "subtitle": "تواصل مع الذكاء الاصطناعي واحصل على شعار لمشروعك",
+    "chatTitle": "مساعد الشعار الذكي",
+    "chatSubtitle": "صف رؤيتك واحصل على شعار",
+    "welcomeMessage": "مرحبًا! أنا مساعدك الذكي لإنشاء الشعار المثالي. هل يمكنك وصف رؤيتك لشعار شركتك؟ (مثال: 'شعار عصري لشركة طعام بألوان زاهية')",
+    "existingLogoMessage": "تم توليد شعار بالفعل لهذا المشروع.",
+    "successMessage": "إليك اقتراحًا لشعار بناءً على وصفك!",
+    "errorMessage": "خطأ أثناء توليد الشعار.",
+    "errorPrefix": "خطأ:",
+    "errorFallback": "غير قادر على توليد الشعار",
+    "errorRetry": "يرجى المحاولة لاحقًا إذا كان النموذج مشتغلاً بكثافة.",
+    "inputPlaceholder": "صف رؤيتك للشعار...",
+    "inputAriaLabel": "أدخل وصف رؤيتك للشعار",
+    "sendAriaLabel": "إرسال طلب توليد الشعار",
+    "downloadFileName": "شعار-bizzwiz.png",
+    "download": "تحميل الشعار",
+    "downloadAriaLabel": "تحميل الشعار المُولد",
+    "back": "رجوع",
+    "backAriaLabel": "العودة إلى الخطوة السابقة",
+    "singleLogoMessage": "يمكن توليد شعار واحد فقط لكل مشروع.",
+    "validationTitle": "التحقق",
+    "validationDescription": "ضع علامة على هذا الشعار كمحقق للانتقال إلى الخطوة التالية",
+    "validateButton": "تحقق من الشعار",
+    "validated": "تم التحقق",
+    "validateAriaLabel": "تحقق من الشعار",
+    "validatedAriaLabel": "الشعار تم التحقق منه",
+    "validationDialogTitle": "تأكيد التحقق",
+    "validationDialogDescription": "هل أنت متأكد من رغبتك في التحقق من هذا الشعار؟",
+    "validationWarning": "تحذير:",
+    "validationNoReturn": "بمجرد التأكيد، لن يكون هناك عودة ممكنة.",
+    "cancelValidation": "إلغاء",
+    "cancelValidationAriaLabel": "إلغاء التحقق من الشعار",
+    "confirmValidation": "تأكيد التحقق",
+    "confirmValidationAriaLabel": "تأكيد التحقق من الشعار",
+    "downloadError": "خطأ أثناء تحميل الشعار.",
+    "aiModificationTitle": "تعديل الذكاء الاصطناعي",
+    "aiModificationDescription": "اطلب التعديلات عبر الذكاء الاصطناعي ({{remaining}} استخدامات متبقية)",
+    "modificationPlaceholder": "صف التعديل المطلوب (مثال: الألوان، الأسلوب، الأيقونة)",
+    "modificationInputAriaLabel": "أدخل وصف تعديل الشعار",
+    "modifyAriaLabel": "إرسال طلب تعديل الشعار",
+    "modificationSuccess": "تم تطبيق التعديل. إليك اقتراحًا جديدًا للشعار.",
+    "modificationError": "خطأ أثناء تعديل الشعار."
+  }
+  ,
+  "sloganComponent": {
+    "title": "توليد الشعارات",
+    "subtitle": "صف فكرتك واحصل على ما يصل إلى 5 شعارات مؤثرة",
+    "back": "عودة",
+    "promptTitle": "صف فكرتك",
+    "promptSubtitle": "وصف مختصر لتوليد الشعارات",
+    "inputPlaceholder": "مثال: شعار حيوي وحديث لمنصة تصل بين المطورين والعملاء",
+    "generate": "توليد",
+    "generatedTitle": "الشعارات المُولدة",
+    "countFound": "{{count}} تم العثور عليها",
+    "noResults": "لم يتم توليد شعارات بعد.",
+    "loading": "جارٍ التوليد...",
+    "select": "اختيار",
+    "selected": "تم الاختيار",
+    "selectedMessage": "تم اختيار الشعار: \"{{slogan}}\"",
+    "validationTitle": "التحقق",
+    "validationDescription": "ضع علامة على هذه الشعارات كمحققة للانتقال إلى الخطوة التالية",
+    "validate": "تحقق",
+    "validated": "تم التحقق",
+    "validationDialogTitle": "تأكيد التحقق",
+    "validationDialogDescription": "هل أنت متأكد من رغبتك في التحقق من هذه الشعارات؟",
+    "validationWarning": "تحذير:",
+    "validationNoReturn": "بمجرد التأكيد، لن يكون هناك عودة ممكنة.",
+    "cancel": "إلغاء",
+    "confirm": "تأكيد",
+    "aiPanelTitle": "تعديل الذكاء الاصطناعي",
+    "aiPanelDescription": "اطلب التعديلات عبر الذكاء الاصطناعي ({{remaining}} استخدامات متبقية)",
+    "openAIModalButton": "فتح نافذة التعديل",
+    "aiModalTitle": "طلب تعديل الذكاء الاصطناعي",
+    "aiModalHelp": "صِف التغييرات المطلوبة (مثل: نبرة أكثر جرأة، أقصر، موجهة للأعمال)",
+    "aiModalPlaceholder": "مثال: اجعل الشعار أكثر ديناميكية وتأثيرًا",
+    "submit": "إرسال",
+    "manualPanelTitle": "التعديل اليدوي",
+    "manualPanelDescription": "عدّل قائمة الشعارات يدويًا",
+    "openManualEditor": "فتح المحرر",
+    "manualModalTitle": "التعديل اليدوي للشعارات",
+    "manualModalHelp": "عدّل القائمة بحرية (سطر واحد = شعار واحد)",
+    "manualModalPlaceholder": "الشعار 1\nالشعار 2\nالشعار 3",
+    "save": "حفظ",
+    "welcomeMessage": "مرحبًا! أنا مساعدك الذكي لإنشاء شعارات مؤثرة. صِف فكرة الشعار أو نشاطك للبدء!",
+    "existingListIntro": "إليك الشعارات التي تم توليدها سابقًا لمشروعك:",
+    "generatedListMessage": "إليك الشعارات التي تم توليدها:",
+    "updatedMessage": "تم تحديث الشعارات وفقًا لطلبك.",
+    "errorGenerate": "فشل توليد الشعارات",
+    "errorModify": "خطأ أثناء التعديل بالذكاء الاصطناعي."
+  },
+  "emailVerification": {
+      "loading": {
+        "title": "جارٍ التحقق من البريد الإلكتروني",
+        "description": "يرجى الانتظار بينما نتحقق من عنوان بريدك الإلكتروني..."
+      },
+      "success": {
+        "title": "تم التحقق من البريد الإلكتروني بنجاح!",
+        "message": "تم التحقق من بريدك الإلكتروني. يمكنك الآن الوصول إلى جميع ميزات BizzWiz.",
+        "buttonText": "الذهاب إلى تسجيل الدخول",
+        "countdown": "إعادة التوجيه إلى تسجيل الدخول خلال {countdown} ثوانٍ..."
+      },
+      "alreadyVerified": {
+        "title": "البريد الإلكتروني تم التحقق منه بالفعل",
+        "message": "تم التحقق من بريدك الإلكتروني مسبقًا. يمكنك الاستمرار في استخدام BizzWiz.",
+        "buttonText": "الذهاب إلى تسجيل الدخول"
+      },
+      "invalid": {
+        "title": "رابط التحقق غير صالح",
+        "message": "رابط التحقق غير صالح أو منتهي الصلاحية. يرجى طلب بريد إلكتروني جديد للتحقق.",
+        "buttonText": "طلب بريد إلكتروني جديد",
+        "backToHome": "العودة إلى الصفحة الرئيسية"
+      },
+      "error": {
+        "title": "فشل التحقق",
+        "message": "حدث خطأ أثناء التحقق. يرجى المحاولة مرة أخرى أو التواصل مع الدعم.",
+        "buttonText": "الاتصال بالدعم",
+        "backToHome": "العودة إلى الصفحة الرئيسية"
+      },
+      "default": {
+        "title": "التحقق من البريد الإلكتروني",
+        "message": "جارٍ معالجة التحقق من بريدك الإلكتروني...",
+        "buttonText": "الذهاب إلى الصفحة الرئيسية"
+      },
+      "footer": {
+        "copyright": "© {year} BizzWiz. جميع الحقوق محفوظة.",
+        "contactUs": "اتصل بنا",
+        "privacyPolicy": "سياسة الخصوصية"
+      },
+      "imageAlt": "تميمة BizzWiz AI ثلاثية الأبعاد المستقبلية"
+    },
+    "verifyEmail": {
+      "loading": {
+        "verifying": "جارٍ التحقق من البريد الإلكتروني",
+        "resending": "جارٍ إعادة إرسال البريد الإلكتروني",
+        "processing": "جارٍ المعالجة",
+        "verifyingDescription": "تأكيد عنوان بريدك الإلكتروني وتفعيل حسابك...",
+        "resendingDescription": "إرسال رابط تحقق جديد إلى عنوان بريدك الإلكتروني...",
+        "processingDescription": "يرجى الانتظار بينما نعالج طلبك..."
+      },
+      "main": {
+        "title": "تحقق من بريدك الإلكتروني",
+        "message": "تم إرسال بريد إلكتروني للتحقق إلى <strong>{email}</strong>. يرجى التحقق من بريدك الوارد أو مجلد الرسائل غير المرغوب فيها لتأكيد عنوان بريدك الإلكتروني. بمجرد التحقق، سيتم إخطار فريقنا لمراجعة حسابك.",
+        "resendButton": "إعادة إرسال البريد الإلكتروني",
+        "resendingButton": "جارٍ إعادة الإرسال...",
+        "backToHome": "العودة إلى الصفحة الرئيسية"
+      },
+      "toast": {
+        "success": {
+          "title": "تم التحقق من البريد الإلكتروني",
+          "description": "تم التحقق من بريدك الإلكتروني بنجاح. جارٍ إعادة التوجيه إلى تسجيل الدخول..."
+        },
+        "error": {
+          "title": "خطأ في التحقق",
+          "description": "فشل في التحقق من البريد الإلكتروني. يرجى المحاولة مرة أخرى أو إعادة إرسال بريد التحقق."
+        },
+        "resendSuccess": {
+          "title": "تم إعادة إرسال البريد الإلكتروني",
+          "description": "تم إرسال رابط تحقق جديد إلى عنوان بريدك الإلكتروني."
+        },
+        "resendError": {
+          "title": "خطأ",
+          "description": "فشل في إعادة إرسال بريد التحقق."
+        }
+      },
+      "imageAlt": "تميمة BizzWiz AI ثلاثية الأبعاد المستقبلية مع لمسات نيون أرجوانية وزرقاء، أسلوب سايبربانك فاخر"
+    },
+    "scheduleMeet": {
+    "title": "جدولة موعد",
+    "imageAlt": "تميمة BizzWiz AI ثلاثية الأبعاد المستقبلية مع لمسات نيون أرجوانية وزرقاء، أسلوب سايبربانك فاخر",
+    "form": {
+      "nameLabel": "الاسم",
+      "namePlaceholder": "أدخل اسمك",
+      "figmaUrlLabel": "رابط فيغما (اختياري)",
+      "figmaUrlPlaceholder": "أدخل رابط فيغما (اختياري)",
+      "phoneNumberLabel": "رقم الهاتف",
+      "phoneNumberPlaceholder": "أدخل رقم هاتفك",
+      "dateTimeLabel": "تاريخ ووقت الموعد",
+      "dateTimePlaceholder": "اختر التاريخ والوقت"
+    },
+    "buttons": {
+      "submit": "حجز الموعد",
+      "submitting": "جارٍ الحجز...",
+      "back": "رجوع",
+      "backAriaLabel": "العودة إلى لوحة التحكم"
+    },
+    "toast": {
+      "error": {
+        "title": "خطأ",
+        "requiredFields": "يرجى ملء جميع الحقول المطلوبة.",
+        "submitError": "فشل في حجز الموعد."
+      },
+      "success": {
+        "title": "نجاح",
+        "description": "تم حجز الموعد بنجاح."
+      }
+    }
+  },
+  "waitingValidation": {
+    "title": "شكرًا، تم التحقق من هويتك البصرية!",
+    "description": "فريقنا يراجع الآن طلبك.",
+    "confirmationMessage": "ستتلقى بريدًا إلكترونيًا للتأكيد بمجرد أن يصبح كل شيء جاهزًا. في غضون ذلك، يمكنك استكشاف خطواتك التالية.",
+    "buttonText": "تسجيل الدخول",
+    "imageAlt": "شخصية التحقق"
+  },
+  "sidebar": {
+    "title": "مركز بيز",
+    "navItems": {
+      "cockpit": "قمرة القيادة الخاصة بك",
+      "projects": "المشاريع",
+      "newProject": "مشروع جديد",
+      "payment": "الدفع",
+      "wizStudio": "استوديو ويز",
+      "wizLearn": "تعليم ويز",
+      "aiGenerated": "محتوى الذكاء الاصطناعي",
+      "settings": "الإعدادات"
+    },
+    "logout": "تسجيل الخروج",
+    "openSidebarAria": "فتح الشريط الجانبي",
+    "closeSidebarAria": "إغلاق الشريط الجانبي",
+    "toast": {
+      "success": {
+        "title": "تسجيل الخروج ناجح",
+        "description": "تم تسجيل خروجك بنجاح."
+      },
+      "error": {
+        "title": "خطأ",
+        "description": "فشل في تسجيل الخروج."
+      }
+    }
+  },
+  "aiPage": {
+    "title": "محتوى تم إنشاؤه بواسطة الذكاء الاصطناعي",
+    "businessPlan": {
+      "header": "خطة الأعمال",
+      "noData": "لم يتم إنشاء خطة أعمال بعد.",
+      "downloadButton": "تنزيل الخطة (PDF)"
+    },
+    "logo": {
+      "header": "الشعار",
+      "noData": "لم يتم إنشاء شعار بعد.",
+      "downloadButton": "تنزيل الشعار (PNG)",
+      "imageAlt": "الشعار المنشأ"
+    },
+    "slogans": {
+      "header": "الشعارات",
+      "noData": "لم يتم إنشاء شعارات بعد."
+    },
+    "error": {
+      "missingIds": "معرف المستخدم أو معرف بيانات النموذج غير موجود",
+      "fetchFailed": "فشل في جلب البيانات المنشأة"
+    }
+  },
+   "wizStudio": {
+    "title": "استوديو ويز",
+    "description": "استوديو إنشاء بصري متقدم",
+    "comingSoon": "قريبًا",
+    "features": {
+      "designSystem": {
+        "header": "نظام التصميم",
+        "description": "إنشاء أنظمة تصميم متسقة وقابلة للتطوير باستخدام الذكاء الاصطناعي."
+      },
+      "codeGeneration": {
+        "header": "توليد الشيفرات",
+        "description": "توليد شيفرات محسنة مباشرة من تصاميمك."
+      },
+      "collaboration": {
+        "header": "التعاون",
+        "description": "التعاون في الوقت الفعلي مع فريق التصميم الخاص بك."
+      }
+    },
+    "notifyButton": "أخبرني بالإطلاق"
+  },
+  "wizLearn": {
+    "title": "تعليم ويز",
+    "description": "منصة تعليمية ذكية",
+    "comingSoon": "قريبًا",
+    "features": {
+      "personalizedAI": {
+        "header": "ذكاء اصطناعي مخصص",
+        "description": "تعليم تكيفي بناءً على ملفك الشخصي وأهدافك."
+      },
+      "smartGoals": {
+        "header": "أهداف ذكية",
+        "description": "تحديد الأهداف تلقائيًا بناءً على مشاريعك."
+      },
+      "gamification": {
+        "header": "التحفيز اللعبي",
+        "description": "نظام مكافآت وتحديات للحفاظ على الحماس."
+      }
+    },
+    "notifyButton": "أخبرني بالإطلاق"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "description": "إدارة حسابك وتفضيلاتك.",
+    "loading": "جارٍ تحميل الإعدادات...",
+    "profile": {
+      "header": "الملف الشخصي",
+      "fullnameLabel": "الاسم الكامل",
+      "emailLabel": "البريد الإلكتروني",
+      "emailNotifications": "إشعارات البريد الإلكتروني",
+      "pushNotifications": "إشعارات الدفع",
+      "updateButton": "تحديث الملف الشخصي",
+      "updating": "جارٍ التحديث..."
+    },
+    "security": {
+      "header": "الأمان",
+      "newPasswordLabel": "كلمة المرور الجديدة",
+      "passwordPlaceholder": "••••••••",
+      "showPassword": "إظهار كلمة المرور",
+      "hidePassword": "إخفاء كلمة المرور",
+      "changePasswordButton": "تغيير كلمة المرور",
+      "updating": "جارٍ التحديث...",
+      "twoFactor": "تم تفعيل المصادقة الثنائية"
+    },
+    "toast": {
+      "profileSuccess": {
+        "title": "نجاح",
+        "description": "تم تحديث الملف الشخصي بنجاح."
+      },
+      "profileError": {
+        "title": "خطأ",
+        "description": "فشل في تحديث الملف الشخصي."
+      },
+      "passwordSuccess": {
+        "title": "نجاح",
+        "description": "تم تحديث كلمة المرور بنجاح."
+      },
+      "passwordError": {
+        "title": "خطأ",
+        "description": "فشل في تحديث كلمة المرور."
+      },
+      "passwordEmpty": {
+        "title": "خطأ",
+        "description": "يرجى إدخال كلمة مرور جديدة."
+      },
+      "loadError": {
+        "title": "خطأ",
+        "description": "فشل في تحميل بيانات المستخدم."
+      }
+    },
+    "error": {
+      "fetchFailed": "فشل في تحميل بيانات المستخدم."
+    }
+  },
+  "projects": {
+    "title": "السفينة الفضائية",
+    "description": "إدارة وتتبع مشاريعك",
+    "loading": "جارٍ تحميل المشاريع...",
+    "noProjects": "لم يتم العثور على مشاريع. قم بإنشاء مشروع جديد للبدء.",
+    "error": {
+      "noUser": "المستخدم غير معروف.",
+      "fetchFailed": "فشل في تحميل المشاريع."
+    },
+    "status": {
+      "payment_done": "مدفوع",
+      "pending": "في انتظار",
+      "completed": "مكتمل",
+      "rejected": "مرفوض",
+      "active": "نشط",
+      "default": "غير معروف"
+    },
+    "labels": {
+      "progress": "التقدم",
+      "team": "الفريق",
+      "budget": "الميزانية",
+      "category": "الفئة",
+      "noName": "مشروع بدون اسم",
+      "noDescription": "لا يوجد وصف",
+      "noTeam": "لم يتم تعيين فريق",
+      "noBudget": "غير محدد"
+    },
+    "toast": {
+      "error": {
+        "title": "خطأ",
+        "description": "فشل في تحميل المشاريع."
+      }
+    }
+  },
+  "projectDetails": {
+    "backButton": "العودة إلى المشاريع",
+    "overview": {
+      "progress": "التقدم العام",
+      "team": "الفريق",
+      "start": "البدء",
+      "delivery": "التسليم",
+      "budget": "الميزانية",
+      "viewLive": "عرض مباشر",
+      "teamChat": "دردشة الفريق"
+    },
+    "roadmap": {
+      "header": "خارطة طريق المشروع",
+      "loading": "جارٍ تحميل خارطة الطريق...",
+      "error": "خطأ في تحميل البيانات الديناميكية.",
+      "noData": "لم يتم العثور على خارطة طريق. يرجى التواصل مع المسؤول.",
+      "period": "الفترة",
+      "responsible": "المسؤول",
+      "deliverables": "التسليمات",
+      "keyDeliverables": "التسليمات الرئيسية",
+      "completed": "مكتمل",
+      "inProgress": "قيد التقدم",
+      "pending": "في انتظار",
+      "lastUpdated": "آخر تحديث",
+      "fallbackPhase": "مرحلة غير معنونة",
+      "fallbackDescription": "لا يوجد وصف متاح.",
+      "status": {
+        "completed": "مكتمل",
+        "active": "قيد التقدم",
+        "pending": "في انتظار",
+        "default": "غير معروف"
+      }
+    },
+    "team": {
+      "header": "أعضاء الفريق",
+      "loading": "جارٍ تحميل أعضاء الفريق...",
+      "error": "خطأ في تحميل أعضاء الفريق.",
+      "noData": "لم يتم العثور على أعضاء الفريق. يرجى التواصل مع المسؤول."
+    },
+    "technologies": {
+      "header": "التقنيات",
+      "loading": "جارٍ تحميل التقنيات...",
+      "error": "خطأ في تحميل التقنيات.",
+      "noData": "لم يتم العثور على تقنيات. يرجى التواصل مع المسؤول."
+    },
+    "fallback": {
+      "teamLead": {
+        "name": "قائد الفريق",
+        "role": "مدير المشروع"
+      },
+      "nextMilestone": {
+        "name": "المعلم التالي",
+        "date": "15 مارس 2024"
+      },
+      "deliveryDate": "15 يونيو 2024",
+      "technologies": ["رياكت", "نود.جي إس", "الذكاء الاصطناعي/تعلّم الآلة", "الحوسبة السحابية"],
+      "noDate": "غير متوفر"
+    },
+    "status": {
+      "PaymentDone": "مدفوع",
+      "default": "غير معروف"
+    }
+  },
+  "cockpit": {
+    "loading": "جارٍ تحميل المشروع...",
+    "noProject": "لم يتم تحديد أي مشروع.",
+    "welcome": "تم إنشاء التزامن، مرحبًا {name}",
+    "description": "لوحة التحكم الخاصة بك لإدارة وتتبع مشاريعك",
+    "overview": {
+      "delivery": "التسليم",
+      "teamAssigned": "الفريق المعين",
+      "noTeam": "غير محدد",
+      "encryptedChat": "دردشة مشفرة",
+      "projectDetails": "تفاصيل المشروع",
+      "ascendant": "تصاعدي",
+      "nextMilestone": "التالي: {milestone}",
+      "targetDate": "تاريخ الهدف"
+    },
+    "timeline": {
+      "header": "الجدول الزمني",
+      "status": "الحالة"
+    },
+    "level": {
+      "header": "المستوى",
+      "xp": "نقاط الخبرة",
+      "nextLevel": "المستوى التالي: {milestone}",
+      "investment": "الاستثمار",
+      "teammates": "أعضاء الفريق",
+      "projects": "المشاريع",
+      "progress": "التقدم"
+    },
+    "notifications": {
+      "header": "الإشعارات",
+      "newMessages": "رسائل جديدة",
+      "new": "جديد",
+      "unreadMessages": "لديك رسائل غير مقروءة في الدردشة"
+    },
+    "badges": {
+      "header": "الشارات",
+      "noBadges": "لا توجد شارات مفتوحة",
+      "newUser": "مستخدم جديد",
+      "bestUser": "أفضل مستخدم",
+      "proInvestor": "مستثمر محترف",
+      "projectCompleted": "المشروع مكتمل",
+      "paymentDone": "الدفع مكتمل",
+      "bigTeam": "فريق كبير",
+      "speedster": "السرعة",
+      "persistent": "مثابر",
+      "milestone75": "معلم 75%",
+      "milestone50": "معلم 50%",
+      "earlyBird": "الطائر المبكر"
+    },
+    "status": {
+      "PaymentDone": "مدفوع",
+      "completed": "مكتمل",
+      "default": "غير معروف"
+    },
+    "featureIcons": {
+      "Settings": "الإعدادات",
+      "Lightbulb": "التفكير الإبداعي",
+      "TerminalSquare": "تطوير الخلفية",
+      "Palette": "تصميم واجهة المستخدم/تجربة المستخدم",
+      "Code2": "تطوير الواجهة الأمامية",
+      "ShieldCheck": "الأمان",
+      "Users": "إدارة المستخدمين",
+      "DollarSign": "التحقيق المالي",
+      "BarChart2": "التحليلات والبيانات",
+      "MessageSquare": "التواصل",
+      "Database": "قاعدة البيانات",
+      "Cloud": "البنية التحتية السحابية",
+      "SearchCheck": "الاختبار وضمان الجودة",
+      "Rocket": "الإطلاق",
+      "Award": "هدف رئيسي",
+      "TrendingUp": "النمو/التسويق",
+      "Activity": "مهمة عامة",
+      "Milestone": "معلم هام"
+    }
+  },
+  "chat": {
+    "encrypted": "مشفر من طرف إلى طرف",
+    "refreshMessages": "تحديث الرسائل",
+    "minimize": "تصغير",
+    "maximize": "تكبير",
+    "close": "إغلاق",
+    "checkingMessages": "التحقق من الرسائل الجديدة...",
+    "download": "تحميل",
+    "preview": "معاينة",
+    "removeAttachment": "إزالة المرفق",
+    "attachFile": "إرفاق ملف",
+    "placeholder": "اكتب رسالتك...",
+    "send": "إرسال",
+    "downloadError": "خطأ أثناء تحميل الملف",
+    "fallback": {
+      "teamLeadName": "الاسم غير متاح"
+    }
+  },
+  "paymentPage": {
+    "loading": "جارٍ تحميل الروابط...",
+    "header": "روابط المشروع",
+    "description": "الوصول إلى مواردك وإتمام الدفع",
+    "back": "رجوع",
+    "figma": {
+      "header": "تصميم فيجما",
+      "description": "عرض النماذج الأولية الخاصة بك",
+      "linkLabel": "رابط فيجما",
+      "open": "فتح فيجما",
+      "available": "الرابط متاح",
+      "pending": "في انتظار التهيئة"
+    },
+    "payment": {
+      "header": "دفع آمن",
+      "description": "إتمام طلبك",
+      "linkLabel": "رابط الدفع",
+      "payNow": "ادفع الآن",
+      "available": "الدفع الآمن متاح",
+      "pending": "في انتظار التهيئة"
+    },
+    "information": {
+      "header": "معلومات هامة",
+      "security": {
+        "header": "الأمان",
+        "description": "جميع المدفوعات آمنة وتتم معالجتها عبر منصات معتمدة."
+      },
+      "figmaAccess": {
+        "header": "الوصول إلى فيجما",
+        "description": "التصاميم متاحة عبر رابط فيجما المقدم بعد الدفع."
+      },
+      "externalLinks": {
+        "header": "الروابط الخارجية",
+        "description": "تفتح الروابط في علامات تبويب جديدة لأمانك."
+      },
+      "copyLinks": {
+        "header": "نسخ الروابط",
+        "description": "استخدم زر النسخ لمشاركة الروابط بسهولة."
+      }
+    },
+    "support": "هل تحتاج إلى مساعدة؟ تواصل مع دعم العملاء لدينا",
+    "fetchLinksError": {
+      "title": "معلومات",
+      "description": "لا توجد روابط دفع أو فيجما متاحة لهذا المشروع."
+    },
+    "copySuccess": {
+      "title": "تم النسخ!",
+      "description": "تم نسخ الرابط إلى الحافظة."
+    },
+    "copyError": {
+      "title": "خطأ",
+      "description": "تعذر نسخ الرابط."
+    },
+    "fallback": {
+      "notAvailable": "غير متاح"
+    }
+  },
+  "dashboard": {
+    "loading": "جارٍ التحقق من المصادقة...",
+    "authError": {
+      "title": "الوصول مرفوض",
+      "description": "يرجى تسجيل الدخول للوصول إلى هذه الصفحة."
+    },
+    "fetchProjectError": {
+      "title": "خطأ",
+      "description": "تعذر تحميل تفاصيل المشروع.",
+      "fallback": "فشل تحميل تفاصيل المشروع."
+    }
+  },
+
+  "updatePassword": {
+  "title": "تحديث كلمة المرور",
+  "description": "أدخل كلمة مرور جديدة لتأمين حسابك.",
+  "emailLabel": "عنوان البريد الإلكتروني",
+  "emailPlaceholder": "your.email@galaxie.com",
+  "passwordLabel": "كلمة المرور الجديدة",
+  "passwordConfirmationLabel": "تأكيد كلمة المرور",
+  "submitButton": "تحديث كلمة المرور",
+  "submitting": "جاري التحديث...",
+  "backToLogin": "العودة إلى تسجيل الدخول",
+  "noAccount": "ليس لديك حساب بعد؟",
+  "createAccount": "إنشاء حساب",
+  "successTitle": "تم تحديث كلمة المرور",
+  "successDescription": "تم تحديث كلمة المرور بنجاح. سيتم تحويلك إلى صفحة تسجيل الدخول...",
+  "passwordStrength": {
+    "label": "قوة كلمة المرور",
+    "minLength": "على الأقل 8 أحرف",
+    "uppercase": "على الأقل حرف كبير واحد",
+    "lowercase": "على الأقل حرف صغير واحد",
+    "number": "على الأقل رقم واحد",
+    "specialChar": "على الأقل رمز خاص واحد"
+  },
+  "errors": {
+    "validationTitle": "خطأ في التحقق",
+    "validationDescription": "يرجى تصحيح الأخطاء أدناه والمحاولة مرة أخرى.",
+    "submitTitle": "فشل التحديث",
+    "submitDefault": "رابط إعادة التعيين غير صالح أو منتهي الصلاحية.",
+    "email": {
+      "required": "البريد الإلكتروني مطلوب.",
+      "invalid": "يرجى إدخال بريد إلكتروني صالح."
+    },
+    "password": {
+      "required": "كلمة المرور مطلوبة.",
+      "minLength": "يجب أن تحتوي كلمة المرور على 8 أحرف على الأقل."
+    },
+    "passwordConfirmation": {
+      "required": "تأكيد كلمة المرور مطلوب.",
+      "mismatch": "كلمتا المرور غير متطابقتين."
+    }
+  },
+  "instructions": {
+    "title": "إرشادات إعادة التعيين",
+    "step1": "أدخل البريد الإلكتروني المرتبط بحسابك.",
+    "step2": "أنشئ كلمة مرور قوية تحتوي على 8 أحرف على الأقل بما في ذلك الحروف الكبيرة والصغيرة والأرقام والرموز الخاصة.",
+    "step3": "قم بتأكيد كلمة المرور الجديدة عن طريق إدخالها مرة أخرى في حقل التأكيد.",
+    "step4": "اضغط على 'تحديث كلمة المرور' لحفظ كلمة المرور الجديدة.",
+    "step5": "سيتم تحويلك إلى صفحة تسجيل الدخول حيث يمكنك تسجيل الدخول باستخدام بياناتك الجديدة."
+  }
+}
+}

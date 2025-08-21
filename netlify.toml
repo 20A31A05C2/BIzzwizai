@@ -1,0 +1,11 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://bizzwiz.indibase.in/api/:splat"
+  status = 200
+force = true
+
+# This is the new rule for client-side routing fallback
+[[redirects]]
+  from = "/*"       # Any path that's not explicitly defined above
+  to = "/index.html" # Serve your main index.html file
+  status = 200      # Perform a rewrite (URL stays the same in browser)

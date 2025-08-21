@@ -1,0 +1,1255 @@
+{
+    "nav": {
+      "ourWork": "Notre travail",
+      "process": "Processus",
+      "services": "Services",
+      "contact": "Nous contacter",
+      "home": "Retour à la page d'accueil",
+      "toggleMenu": "Basculer le menu",
+      "getStarted": "Commencer"
+    },
+    "hero": {
+      "title": "Votre vision, construite par des experts",
+      "description": "Suivez les progrès pendant que nous nous occupons du reste",
+      "startProject": "Démarrer mon projet"
+    },
+    "ourWorks": {
+      "title": "Notre travail",
+      "description": "Découvrez comment nous donnons vie aux idées à travers des projets réels."
+    },
+    "howItWorks": {
+      "title": "Comment ça marche",
+      "step1": "Étape 1",
+      "startProjectTitle": "Démarrez votre projet",
+      "startProjectDescription": "Remplissez un formulaire simple en plusieurs étapes pour partager votre idée et les informations de votre entreprise. Aucun jargon technique n'est requis.",
+      "step2": "Étape 2",
+      "planLogoTitle": "Obtenez votre plan et votre logo",
+      "planLogoDescription": "Recevez un plan d'affaires personnalisé et créez instantanément votre logo de marque généré par l'IA.",
+      "step3": "Étape 3",
+      "validationCallTitle": "Appel de validation",
+      "validationCallDescription": "Un de nos consultants vous contactera sous 24 heures pour comprendre et valider votre projet.",
+      "step4": "Étape 4",
+      "dashboardAccessTitle": "Accès au tableau de bord",
+      "dashboardAccessDescription": "Une fois votre projet approuvé et payé, accédez à l'intégralité de votre tableau de bord avec maquettes, échéances, fichiers et mises à jour en temps réel."
+    },
+    "features": {
+      "title": "Nos Services",
+      "description": "Solutions numériques complètes pour propulser votre entreprise",
+      "cta": "Prêt à commencer ?",
+      "bizzHub": {
+        "title": "BIZZ HUB",
+        "description": "Création express de ton projet digital",
+        "aiBusinessPlanTitle": "Plan d'affaires IA",
+        "aiBusinessPlanDescription": "Planification et stratégie d'entreprise alimentées par l'IA",
+        "logoIdentityTitle": "Logo & identité visuelle",
+        "logoIdentityDescription": "Solutions complètes de conception d'identité visuelle et de marque",
+        "figmaMockupTitle": "Maquette Figma",
+        "figmaMockupDescription": "Maquettes et prototypes de conception UI/UX professionnels",
+        "quoteRoadmapTitle": "Devis + roadmap",
+        "quoteRoadmapDescription": "Devis de projet détaillés avec des feuilles de route complètes",
+        "liveDashboardTitle": "Tableau de bord en direct",
+        "liveDashboardDescription": "Analyse et suivi des performances en temps réel"
+      },
+      "wizGrow": {
+        "title": "WIZ GROW",
+        "description": "Booster visuel pour ta croissance",
+        "miniCrmTitle": "Mini CRM",
+        "miniCrmDescription": "Gestion simplifiée des relations avec les clients",
+        "aiEmailingTitle": "Emailing IA",
+        "aiEmailingDescription": "Campagnes de marketing par email alimentées par l'IA",
+        "seoAnalysisTitle": "Analyse & Simulation SEO",
+        "seoAnalysisDescription": "Outils avancés d'analyse et de simulation SEO",
+        "marketingFunnelTitle": "Tunnel marketing",
+        "marketingFunnelDescription": "Stratégies de tunnel de marketing optimisées",
+        "templatesScriptsTitle": "Modèles & scripts",
+        "templatesScriptsDescription": "Modèles prêts à l'emploi et scripts d'automatisation"
+      }
+    },
+    "contactUs": {
+      "title": "Connectons-nous",
+      "description": "Vous avez une question ou souhaitez collaborer ? Nous serions ravis d'avoir de vos nouvelles. Remplissez le formulaire, et nous vous répondrons dans les 24 heures.",
+      "emailTitle": "Contactez-nous par e-mail",
+      "emailLabel": "E-mail",
+      "emailPlaceholder": "votre.email@exemple.com",
+      "nameLabel": "Nom",
+      "namePlaceholder": "Votre nom complet",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Parlez-nous de votre projet, de vos idées ou de vos questions...",
+      "responseTimeTitle": "Temps de réponse",
+      "responseTimeDescription": "Dans les 24 heures",
+      "submitButton": "Envoyer le message",
+      "submitting": "Envoi du message...",
+      "errorEmptyFields": "Veuillez remplir tous les champs du formulaire de contact.",
+      "errorSubmit": "Erreur d'envoi : Une erreur est survenue lors de l'envoi du message.",
+      "successTitle": "Message envoyé avec succès ! 🎉",
+      "successMessage": "🛰️ Message Transmis ! Votre message a été envoyé à travers l'hyper-espace. Nous vous répondrons dès que possible !",
+      "successDescription": "Merci de nous avoir contactés. Nous vous répondrons dans les 24 heures."
+    },
+    "ending": {
+      "title": "Construisez votre futur digital avec BizzWiz AI",
+      "description": "Rejoignez des fondateurs et des équipes qui utilisent BizzWiz AI pour transformer leurs idées en sites et produits performants — du plan à la mise en ligne, rapidement et sereinement.",
+      "cta": "Démarrer mon projet",
+      "imageAlt": "Icône BizzWiz"
+    },
+    "footer": {
+      "logoAlt": "Logo BizzwizAI",
+      "description": "Nous donnons vie à vos visions numériques avec une technologie de pointe et une excellence créative. Votre succès est notre mission.",
+      "address": "Quadrant Nébuleuse, Station BizzWiz-01",
+      "copyright": "© 2025 BizzwizAI. Tous droits réservés. Construit avec ❤️",
+      "categories": {
+        "services": "Services",
+        "company": "Entreprise",
+        "resources": "Ressources"
+      },
+      "services": {
+        "webDevelopment": "Développement web",
+        "mobileApps": "Applications mobiles",
+        "uiUxDesign": "Conception UI/UX",
+        "digitalMarketing": "Marketing numérique",
+        "consulting": "Consulting"
+      },
+      "company": {
+        "aboutUs": "À propos de nous",
+        "ourTeam": "Notre équipe",
+        "careers": "Carrières",
+        "contact": "Contact",
+        "blog": "Blog"
+      },
+      "resources": {
+        "documentation": "Documentation",
+        "helpCenter": "Centre d'aide",
+        "privacyPolicy": "Politique de confidentialité",
+        "termsOfUse": "Conditions d'utilisation",
+        "cookiePolicy": "Politique de cookies"
+      }
+    },
+    "login": {
+    "title": "Bizzwiz AI",
+    "imageAlt": "Mascotte abeille 3D futuriste BizzWiz AI avec des accents violets et bleus néon, style cyberpunk premium",
+    "email": {
+      "label": "Adresse Email",
+      "placeholder": "nom.utilisateur@galaxie.com"
+    },
+    "password": {
+      "label": "Mot de Passe",
+      "placeholder": "••••••••••••"
+    },
+    "submit": "Connexion",
+    "submitting": "Connexion en cours...",
+    "forgotPassword": "Mot de passe oublié ?",
+    "backToLogin": "Retour à la connexion",
+    "noAccount": "Pas encore de compte ?",
+    "createAccount": "Créer un compte",
+    "success": {
+      "title": "Connexion Réussie",
+      "description": {
+        "admin": "Bienvenue Admin !",
+        "user": "Bienvenue Utilisateur !"
+      }
+    },
+    "error": {
+      "title": "Erreur de Connexion",
+      "generic": "Une erreur est survenue lors de la connexion.",
+      "invalidCredentials": "Identifiants de connexion invalides.",
+      "email": {
+        "title": "Problème Email",
+        "required": "L'adresse email est requise.",
+        "notFound": "Cette adresse email n'existe pas dans notre système.",
+        "invalidFormat": "Format d'email invalide."
+      },
+      "password": {
+        "title": "Problème Mot de Passe",
+        "required": "Le mot de passe est requis.",
+        "incorrect": "Le mot de passe saisi est incorrect.",
+        "minLength": "Le mot de passe doit contenir au moins 6 caractères."
+      },
+      "credentials": {
+        "title": "Identifiants Invalides",
+        "invalid": "L'email ou le mot de passe est incorrect."
+      },
+      "account": {
+        "title": "Problème de Compte",
+        "unverified": "Votre compte n'est pas encore vérifié. Veuillez vérifier votre email.",
+        "suspended": "Votre compte a été temporairement suspendu. Contactez le support."
+      },
+      "accessDenied": {
+        "title": "Accès Refusé",
+        "message": "Email ou mot de passe incorrect. Veuillez réessayer."
+      },
+      "invalidData": {
+        "title": "Données Invalides",
+        "message": "Veuillez vérifier les informations saisies."
+      },
+      "tooManyAttempts": {
+        "title": "Trop de Tentatives",
+        "message": "Trop de tentatives de connexion. Veuillez attendre quelques minutes."
+      },
+      "server": {
+        "title": "Erreur Serveur",
+        "message": "Problème temporaire du serveur. Veuillez réessayer plus tard."
+      },
+      "network": {
+        "title": "Problème de Connexion",
+        "message": "Impossible de se connecter au serveur. Vérifiez votre connexion internet."
+      },
+      "checkCredentials": "Veuillez vérifier vos identifiants."
+    },
+    "reset": {
+      "title": "Réinitialisation du mot de passe",
+      "submit": "Envoyer Email",
+      "submitting": "Envoi en cours...",
+      "emailRequired": {
+        "title": "Email Requis",
+        "message": "Veuillez entrer votre adresse email."
+      },
+      "success": {
+        "title": "Email Envoyé",
+        "message": "Un lien de réinitialisation a été envoyé à votre adresse email. Vérifiez votre boîte de réception."
+      },
+      "error": {
+        "title": "Erreur",
+        "generic": "Échec de l'envoi du lien de réinitialisation.",
+        "email": {
+          "title": "Problème Email",
+          "notFound": "Cette adresse email n'existe pas dans notre système.",
+          "invalidFormat": "Format d'email invalide."
+        },
+        "tooMany": {
+          "title": "Trop de Demandes",
+          "message": "Vous avez déjà demandé un lien de réinitialisation. Veuillez attendre avant de faire une nouvelle demande."
+        },
+        "alreadySent": {
+          "title": "Demande Déjà Effectuée",
+          "message": "Un lien de réinitialisation a déjà été envoyé. Vérifiez votre email."
+        },
+        "server": {
+          "title": "Erreur Serveur",
+          "message": "Problème temporaire du serveur. Veuillez réessayer plus tard."
+        },
+        "network": {
+          "title": "Problème de Connexion",
+          "message": "Impossible de se connecter au serveur. Vérifiez votre connexion internet."
+        }
+      }
+    },
+    "instructions": {
+      "title": "Comment commencer",
+      "step1": "Veuillez vous connecter à votre compte avec votre email et votre mot de passe.",
+      "step2": "Enregistrez les détails de votre projet ici ou créez vos détails de projet.",
+      "step3": "Générez un plan d'affaires automatiquement, vous pouvez le télécharger et générer un logo d'entreprise utile pour les entreprises.",
+      "step4": "Générez un slogan AI, un slogan peut être généré.",
+      "step5": "Réservez un rendez-vous pour le projet sélectionné.",
+      "step6": "Attendez qu'un administrateur vous contacte concernant votre rendez-vous et le paiement.",
+      "step7": "Effectuez le paiement pour le projet réservé après la confirmation de l'administrateur.",
+      "step8": "Une fois le rendez-vous réservé et le paiement effectué, accédez à toutes les fonctionnalités du tableau de bord utilisateur."
+    }
+  },
+  "register": {
+      "passwordLabel": "Mot de Passe",
+      "passwordConfirmationLabel": "Confirmer le Mot de Passe",
+      "companyLabel": "Votre entreprise",
+      "companyOptional": "(Optionnel)",
+      "companyPlaceholder": "Ex: BizzWiz AI Corp.",
+      "submitButton": "S'inscrire",
+      "submitting": "Inscription en cours...",
+      "alreadyHaveAccount": "Déjà un compte ?",
+      "loginLink": "Se connecter",
+      "passwordStrength": {
+        "label": "Force du mot de passe:",
+        "minLength": "Au moins 8 caractères",
+        "uppercase": "Une lettre majuscule",
+        "lowercase": "Une lettre minuscule",
+        "number": "Un chiffre",
+        "specialChar": "Un caractère spécial"
+      },
+      "errors": {
+        "userName": {
+          "required": "Le nom complet est requis",
+          "minLength": "Le nom doit contenir au moins 2 caractères",
+          "maxLength": "Le nom ne peut pas dépasser 50 caractères"
+        },
+        "userEmail": {
+          "required": "L'adresse email est requise",
+          "invalid": "Format d'email invalide"
+        },
+        "userPassword": {
+          "required": "Le mot de passe est requis",
+          "minLength": "Le mot de passe doit contenir au moins 8 caractères"
+        },
+        "userPasswordConfirmation": {
+          "required": "La confirmation du mot de passe est requise",
+          "mismatch": "Les mots de passe ne correspondent pas"
+        },
+        "userCompany": {
+          "maxLength": "Le nom de l'entreprise ne peut pas dépasser 100 caractères"
+        },
+        "validationTitle": "Erreur de validation",
+        "validationDescription": "Veuillez corriger les erreurs dans le formulaire.",
+        "submitTitle": "Erreur d'inscription",
+        "submitDefault": "Une erreur est survenue lors de l'inscription.",
+        "submitEmailUsed": "Cette adresse email est déjà utilisée.",
+        "submitInvalidName": "Le nom fourni est invalide.",
+        "submitInvalidPassword": "Le mot de passe ne respecte pas les critères de sécurité.",
+        "submitPasswordMismatch": "La confirmation du mot de passe ne correspond pas."
+      },
+      "successTitle": "Inscription réussie !",
+      "successDescription": "Votre compte a été créé avec succès. Veuillez vérifier votre e-mail pour activer votre compte.",
+      "instructions": {
+        "step1": "Veuillez vous connecter à votre compte avec votre email et votre mot de passe.",
+        "step2": "Enregistrez les détails de votre projet ici ou créez vos détails de projet.",
+        "step3": "Générez un plan d'affaires automatiquement, vous pouvez le télécharger et générer un logo d'entreprise utile pour les entreprises.",
+        "step4": "Générez un slogan AI, un slogan peut être généré.",
+        "step5": "Réservez un rendez-vous pour le projet sélectionné.",
+        "step6": "Attendez qu'un administrateur vous contacte concernant votre rendez-vous et le paiement.",
+        "step7": "Effectuez le paiement pour le projet réservé après la confirmation de l'administrateur.",
+        "step8": "Une fois le rendez-vous réservé et le paiement effectué, accédez à toutes les fonctionnalités du tableau de bord utilisateur."
+      }
+    },
+    "selectProject": {
+    "title": "Sélectionner un Projet",
+    "subtitle": "Choisissez le projet sur lequel vous souhaitez travailler",
+    "createProject": "Créer un Nouveau Projet",
+    "project": {
+      "untitled": "Projet sans titre",
+      "noType": "Aucun type",
+      "idPrefix": "Projet",
+      "open": "Ouvrir"
+    },
+    "noProjects": {
+      "title": "Aucun projet trouvé",
+      "description": "Vous n'avez pas encore créé de projets. Commencez par créer votre premier projet."
+    },
+    "loading": "Chargement des projets...",
+    "error": {
+      "title": "Erreur",
+      "userNotIdentified": "Utilisateur non identifié.",
+      "fetchFailed": "Échec du chargement des projets.",
+      "invalidProjectId": "ID de projet invalide.",
+      "statusCheckFailed": "Impossible de vérifier le statut du projet."
+    },
+    "selectionRequired": {
+      "title": "Sélection Requise",
+      "description": "Veuillez sélectionner un projet d'abord."
+    },
+    "info": {
+      "title": "Info",
+      "noPayment": "Aucun paiement requis pour le moment."
+    },
+    "auth": {
+      "accessDenied": {
+        "title": "Accès Refusé",
+        "description": "Veuillez vous connecter pour accéder à cette page."
+      }
+    },
+    "logout": {
+      "success": {
+        "title": "Déconnexion réussie",
+        "description": "Vous avez été déconnecté avec succès."
+      },
+      "error": {
+        "failed": "Impossible de se déconnecter."
+      }
+    },
+    "logoutButton": "Déconnexion",
+    "paymentModal": {
+      "title": "Finaliser le Paiement",
+      "description": "Veuillez compléter votre paiement pour accéder au tableau de bord.",
+      "payNow": "Payer Maintenant",
+      "cancel": "Annuler"
+    },
+    "appointmentModal": {
+      "title": "Prendre un Rendez-vous",
+      "description": "Pour avancer avec votre projet, veuillez prendre un rendez-vous avec notre équipe.",
+      "book": "Prendre un Rendez-vous",
+      "cancel": "Annuler"
+    },
+    "alreadyBookedModal": {
+      "title": "Rendez-vous Déjà Réservé",
+      "description": "Vous avez déjà réservé un rendez-vous. Veuillez attendre que l'administrateur vous contacte.",
+      "close": "Fermer"
+    }
+  },
+  "stepWelcome": {
+    "title": "Bienvenue dans l’univers BizzWiz AI",
+    "description": "Tu ne remplis pas un formulaire. Tu co-crées ton projet digital.",
+    "button": "Commencer la Co-création",
+    "imageAlt": "Mascotte abeille 3D futuriste BizzWiz AI avec des accents violets et bleus néon, style cyberpunk premium"
+  },
+  "stepDescribeProject": {
+    "chatMessage": "Décrivez votre Projet. Plus c'est clair, mieux c'est pour notre IA !",
+    "projectName": {
+      "label": "Nom du projet :",
+      "placeholder": "Ex: Plateforme de Musique Live"
+    },
+    "projectDescription": {
+      "label": "Votre idée, vos mots :",
+      "placeholder": "Ex: Une plateforme pour connecter les musiciens indépendants avec des petites salles de concert locales, avec un système de matching basé sur le style musical et la disponibilité..."
+    },
+    "prevButton": "Précédent",
+    "nextButton": "Suivant",
+    "error": {
+      "title": "Erreur de Validation",
+      "description": "Veuillez remplir le nom du projet et la description."
+    }
+  },
+  "stepUserMotivation": {
+    "chatMessage": "Dites-nous ce qui vous anime pour ce projet.",
+    "userMotivation": {
+      "label": "Quelle est votre principale motivation derrière ce projet ?",
+      "placeholder": "Ex: Résoudre un problème urgent, explorer une passion, innover dans mon secteur..."
+    },
+    "userInspiration": {
+      "label": "Y a-t-il des projets, idées ou personnes qui vous inspirent pour cela ? (Optionnel)",
+      "placeholder": "Ex: J'admire l'approche de [entreprise X], ou je suis inspiré par [personne Y]..."
+    },
+    "userConcerns": {
+      "label": "Avez-vous des craintes ou des appréhensions spécifiques concernant ce projet ? (Optionnel)",
+      "placeholder": "Ex: Peur de ne pas avoir les compétences techniques, inquiétude sur le budget, difficulté à atteindre la cible..."
+    },
+    "prevButton": "Précédent",
+    "nextButton": "Suivant",
+    "error": {
+      "title": "Erreur de Validation",
+      "description": "Veuillez indiquer votre principale motivation."
+    }
+  },
+  "stepSolutionType": {
+    "chatMessage": "Type de Solution. Quelle forme prendra votre projet ?",
+    "webApp": "Application Web",
+    "mobileApp": "Application Mobile",
+    "landingPage": "Page d'Accueil",
+    "aiTool": "Outil IA",
+    "other": "Autre",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant"
+  },
+  "stepAudience": {
+    "chatMessage": "Votre Audience Cible. À qui s'adresse principalement votre solution ?",
+    "b2c": "B2C (Grand Public)",
+    "b2b": "B2B (Entreprises)",
+    "internal": "Interne (Équipe/Organisation)",
+    "niche": "Niche Spécifique",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant"
+  },
+  "stepFeatures": {
+    "chatMessage": "Fonctionnalités Clés. Quelles sont les capacités essentielles de votre projet ?",
+    "auth": "Authentification Utilisateur",
+    "payment": "Système de Paiement",
+    "chat": "Messagerie / Chat",
+    "dashboard": "Tableau de Bord Analytique",
+    "admin": "Panneau Administrateur",
+    "search": "Recherche Avancée",
+    "notifications": "Notifications Push/Email",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant"
+  },
+  "stepVisualStyle": {
+    "chatMessage": "Style Visuel Préféré. Quelle ambiance souhaitez-vous pour votre projet ?",
+    "classic": "Classique",
+    "futuristic": "Futuriste",
+    "colorful": "Coloré",
+    "minimalist": "Minimaliste",
+    "premium": "Premium",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant"
+  },
+  "fontSelection": {
+    "chatMessage": "Police Typographique. Choisissez une police pour votre logo.",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant",
+    "sampleText": "Exemple de texte"
+  },
+  "colorPaletteSelection": {
+    "chatMessage": "Palette de Couleurs. Découvrez et créez des palettes de couleurs parfaites pour votre logo.",
+    "createTitle": "Créez votre palette de couleurs",
+    "yourPalette": "Votre Palette",
+    "generateLabel": "Générer une nouvelle palette de couleurs",
+    "generateButton": "Générer Automatiquement",
+    "addLabel": "Ajouter une nouvelle couleur",
+    "addButton": "Ajouter une Couleur",
+    "copyColorLabel": "Copier la couleur {color}",
+    "colorInputLabel": "Valeur de la couleur {index}",
+    "removeLabel": "Supprimer la couleur {index}",
+    "popularPalettes": "Palettes Populaires",
+    "presetLabel": "Charger la palette prédéfinie {index}",
+    "fineTuneTitle": "Ajuster les Couleurs",
+    "colorLabel": "Couleur {index}",
+    "colorPickerLabel": "Sélectionner la couleur {index}",
+    "cssTitle": "CSS Généré",
+    "prevButton": "Précédent",
+    "saveLabel": "Enregistrer la palette de couleurs",
+    "saveButton": "Enregistrer la Palette",
+    "nextButton": "Suivant",
+    "saveAlert": "CSS de la palette de couleurs copié dans le presse-papiers !",
+    "copyAlert": "Couleur {color} copiée dans le presse-papiers !"
+  },
+  "stepTiming": {
+    "chatMessage": "Timing / Urgence. Quel est votre délai idéal pour ce projet ?",
+    "urgent": "Urgent (ASAP)",
+    "fast": "Rapide (< 3 mois)",
+    "standard": "Standard (3-6 mois)",
+    "flexible": "Flexible (> 6 mois)",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant"
+  },
+  "stepBudget": {
+    "chatMessage": "Budget Estimé. Quelle est votre fourchette budgétaire pour ce projet ?",
+    "lessThan2k": "< 2k€",
+    "2kTo5k": "2k€ - 5k€",
+    "5kTo10k": "5k€ - 10k€",
+    "moreThan10k": "10k€ +",
+    "prevButton": "Précédent",
+    "nextButton": "Suivant"
+  },
+  "stepMission": {
+    "chatMessage": "Votre Mission en une Phrase. Résumez l'essence de votre projet.",
+    "labelPart1": "Je veux aider",
+    "placeholderPart1": "[mon audience cible]",
+    "ariaLabelPart1": "Entrez l'audience cible à aider",
+    "labelPart2": "à",
+    "placeholderPart2": "[résoudre leur problème / atteindre leur objectif]",
+    "ariaLabelPart2": "Entrez le problème à résoudre ou l'objectif à atteindre",
+    "labelPart3": "grâce à",
+    "placeholderPart3": "[ma solution unique]",
+    "ariaLabelPart3": "Entrez la solution unique",
+    "exampleText": "Ex: Je veux aider les freelances créatifs à trouver plus de clients grâce à une plateforme de mise en relation intelligente.",
+    "prevButton": "Précédent",
+    "submitButton": "Soumettre le Projet ✨"
+  },
+  "progressBar": {
+    "ariaLabel": "Barre de progression du projet",
+    "stepLabel": "Étape {{current}} sur {{total}}"
+  },
+  "multiStepForm": {
+    "ariaLabel": "Formulaire multi-étapes du projet",
+    "loadingTitle": "Création de votre projet",
+    "loadingDescription": "Traitement des détails de votre projet et génération de votre plan d’affaires...",
+    "successTitle": "🚀 Succès",
+    "successDescription": "Projet créé avec succès.",
+    "errorTitle": "Erreur",
+    "incompleteForm": "Veuillez remplir tous les champs requis avant de soumettre.",
+    "notLoggedIn": "Utilisateur non connecté. Veuillez vous connecter et réessayer.",
+    "submissionFailure": "Échec de la soumission.",
+    "validationFailed": "Échec de validation : ",
+    "networkError": "Erreur de réseau, veuillez vérifier votre connexion internet."
+  },
+  "multiStepFormView": {
+    "ariaLabel": "Vue du formulaire multi-étapes",
+    "successTitle": "🎉 Vision Partagée !",
+    "successDescription": "Votre projet a été soumis avec succès. Nous sommes impatients de le concrétiser !"
+  },
+  "businessComponent": {
+    "ariaLabel": "Composant du plan d'affaires",
+    "contentAriaLabel": "Zone de contenu du plan d'affaires",
+    "actionsAriaLabel": "Panneau d'actions du plan d'affaires",
+    "title": "Votre Business Plan",
+    "subtitle": "Découvrez votre plan d'affaires personnalisé et commencez votre parcours entrepreneurial",
+    "contentTitle": "Business Plan Complet",
+    "contentSubtitle": "Plan d'affaires détaillé et personnalisé",
+    "loading": "Chargement du plan d'affaires...",
+    "errorUserId": "ID utilisateur ou ID de données de formulaire non trouvé",
+    "fetchFailure": "Échec de la récupération du plan d'affaires",
+    "planAlreadyExists": "Plan d'affaires déjà existant, aucune nouvelle génération nécessaire.",
+    "downloadTitle": "Business Plan",
+    "downloadFileName": "plan-d-affaires.pdf",
+    "downloadButton": "Télécharger le Business Plan (PDF)",
+    "downloadAriaLabel": "Télécharger le plan d'affaires au format PDF",
+    "validationTitle": "Validation",
+    "validationDescription": "Marquer ce plan d'affaires comme validé pour passer à l'étape suivante",
+    "validateButton": "Valider le Plan",
+    "validated": "Validé",
+    "validateAriaLabel": "Valider le plan d'affaires",
+    "validatedAriaLabel": "Plan d'affaires validé",
+    "validationDialogTitle": "Confirmer la Validation",
+    "validationDialogDescription": "Êtes-vous sûr de vouloir valider ce plan d'affaires ?",
+    "validationWarning": "Attention :",
+    "validationNoReturn": "Une fois confirmé, il n'y aura plus de retour en arrière possible.",
+    "validationNextStep": "Cette action marquera votre plan d'affaires comme validé et vous permettra de passer à l'étape suivante.",
+    "cancelValidation": "Annuler",
+    "cancel": "Annuler",
+    "confirmValidation": "Confirmer la Validation",
+    "aiModificationTitle": "Modification IA",
+    "aiModificationDescription": "Demander des modifications via l'IA ({{remaining}} utilisations restantes)",
+    "aiModificationButton": "Demander Modification",
+    "aiLimitReached": "Limite atteinte",
+    "aiModificationAriaLabel": "Demander une modification par IA",
+    "aiLimitReachedAriaLabel": "Limite de modification par IA atteinte",
+    "aiModificationModalTitle": "Demande de Modification IA",
+    "aiModificationLabel": "Décrivez vos modifications souhaitées",
+    "aiModificationPlaceholder": "Ex: Ajoutez plus de détails sur la stratégie marketing, modifiez la section financière...",
+    "aiModificationInputAriaLabel": "Entrer la demande de modification par IA",
+    "submitModification": "Soumettre la Demande",
+    "submitModificationAriaLabel": "Soumettre la demande de modification par IA",
+    "closeModal": "Fermer la modale",
+    "manualEditTitle": "Édition Manuelle",
+    "manualEditDescription": "Modifier manuellement le contenu du plan d'affaires",
+    "manualEditButton": "Éditer le Plan",
+    "manualEditAriaLabel": "Modifier manuellement le plan d'affaires",
+    "manualEditModalTitle": "Édition Manuelle",
+    "manualEditLabel": "Contenu du Plan d'Affaires",
+    "manualEditPlaceholder": "Éditez le contenu du plan d'affaires ici...",
+    "manualEditInputAriaLabel": "Entrer les modifications manuelles pour le plan d'affaires",
+    "saveEdit": "Enregistrer les Modifications",
+    "saveEditAriaLabel": "Enregistrer les modifications manuelles"
+  },
+  "logoComponent": {
+    "ariaLabel": "Composant de génération de logo",
+    "chatAriaLabel": "Zone de discussion de génération de logo",
+    "logoPreviewAriaLabel": "Aperçu du logo généré",
+    "actionsAriaLabel": "Panneau d'actions de génération de logo",
+    "title": "Génération de Logo",
+    "subtitle": "Discutez avec l'IA et obtenez un logo pour votre projet",
+    "chatTitle": "Assistant Logo IA",
+    "chatSubtitle": "Décrivez votre vision et obtenez un logo",
+    "welcomeMessage": "Bonjour ! Je suis votre assistant IA pour créer le logo parfait. Pouvez-vous me décrire votre vision pour le logo de votre entreprise ? (Exemple : 'Un logo moderne pour une entreprise de nourriture avec des couleurs vives')",
+    "existingLogoMessage": "Un logo a déjà été généré pour ce projet.",
+    "successMessage": "Voici une suggestion de logo basée sur votre description !",
+    "errorMessage": "Erreur lors de la génération du logo.",
+    "errorPrefix": "Erreur :",
+    "errorFallback": "Impossible de générer le logo",
+    "errorRetry": "Veuillez réessayer plus tard si le modèle est surchargé.",
+    "inputPlaceholder": "Décrivez votre vision du logo...",
+    "inputAriaLabel": "Entrez la description de votre vision du logo",
+    "sendAriaLabel": "Envoyer la demande de génération de logo",
+    "downloadFileName": "logo-bizzwiz.png",
+    "download": "Télécharger le Logo",
+    "downloadAriaLabel": "Télécharger le logo généré",
+    "back": "Retour",
+    "backAriaLabel": "Revenir à l'étape précédente",
+    "singleLogoMessage": "Un seul logo peut être généré par projet.",
+    "validationTitle": "Validation",
+    "validationDescription": "Marquer ce logo comme validé pour passer à l'étape suivante",
+    "validateButton": "Valider le Logo",
+    "validated": "Validé",
+    "validateAriaLabel": "Valider le logo",
+    "validatedAriaLabel": "Logo validé",
+    "validationDialogTitle": "Confirmer la Validation",
+    "validationDialogDescription": "Êtes-vous sûr de vouloir valider ce logo ?",
+    "validationWarning": "Attention :",
+    "validationNoReturn": "Une fois confirmé, il n'y aura plus de retour en arrière possible.",
+    "cancelValidation": "Annuler",
+    "cancelValidationAriaLabel": "Annuler la validation du logo",
+    "confirmValidation": "Confirmer la Validation",
+    "confirmValidationAriaLabel": "Confirmer la validation du logo",
+    "downloadError": "Erreur lors du téléchargement du logo.",
+    "aiModificationTitle": "Modification IA",
+    "aiModificationDescription": "Demander des modifications via l'IA ({{remaining}} utilisations restantes)",
+    "modificationPlaceholder": "Décrivez la modification souhaitée (ex: couleurs, style, icône)",
+    "modificationInputAriaLabel": "Entrez la description de la modification du logo",
+    "modifyAriaLabel": "Envoyer la demande de modification de logo",
+    "modificationSuccess": "Modification appliquée. Voici une nouvelle proposition de logo.",
+    "modificationError": "Erreur lors de la modification du logo."
+  }
+  ,
+  "sloganComponent": {
+    "title": "Génération de Slogans",
+    "subtitle": "Décrivez votre idée et obtenez jusqu'à 5 slogans percutants",
+    "back": "Retour",
+    "promptTitle": "Décrire Votre Idée",
+    "promptSubtitle": "Un bref descriptif pour générer des slogans",
+    "inputPlaceholder": "Ex: Un slogan énergique et moderne pour une plateforme qui connecte développeurs et clients",
+    "generate": "Générer",
+    "generatedTitle": "Slogans Générés",
+    "countFound": "{{count}} trouvés",
+    "noResults": "Aucun slogan généré pour le moment.",
+    "loading": "Génération en cours...",
+    "select": "Sélectionner",
+    "selected": "Sélectionné",
+    "selectedMessage": "Slogan sélectionné : \"{{slogan}}\"",
+    "validationTitle": "Validation",
+    "validationDescription": "Marquer ces slogans comme validés pour passer à l'étape suivante",
+    "validate": "Valider",
+    "validated": "Validé",
+    "validationDialogTitle": "Confirmer la Validation",
+    "validationDialogDescription": "Êtes-vous sûr de vouloir valider ces slogans ?",
+    "validationWarning": "Attention :",
+    "validationNoReturn": "Une fois confirmé, il n'y aura plus de retour en arrière possible.",
+    "cancel": "Annuler",
+    "confirm": "Confirmer",
+    "aiPanelTitle": "Modification IA",
+    "aiPanelDescription": "Demander des modifications via l'IA ({{remaining}} utilisations restantes)",
+    "openAIModalButton": "Ouvrir la fenêtre de modification",
+    "aiModalTitle": "Demande de Modification IA",
+    "aiModalHelp": "Décrivez les changements souhaités (ex: ton plus audacieux, plus court, orienté B2B)",
+    "aiModalPlaceholder": "Ex: Rendre le slogan plus dynamique et percutant",
+    "submit": "Soumettre",
+    "manualPanelTitle": "Édition Manuelle",
+    "manualPanelDescription": "Modifier manuellement la liste de slogans",
+    "openManualEditor": "Ouvrir l'éditeur",
+    "manualModalTitle": "Édition Manuelle des Slogans",
+    "manualModalHelp": "Modifiez librement la liste (une ligne = un slogan)",
+    "manualModalPlaceholder": "Slogan 1\nSlogan 2\nSlogan 3",
+    "save": "Enregistrer",
+    "welcomeMessage": "Bonjour ! Je suis votre assistant IA pour créer des slogans percutants. Décrivez votre idée de slogan ou votre entreprise pour commencer !",
+    "existingListIntro": "Voici les slogans déjà générés pour votre projet :",
+    "generatedListMessage": "Voici vos slogans générés :",
+    "updatedMessage": "Slogans mis à jour selon votre demande.",
+    "errorGenerate": "Échec de la génération des slogans",
+    "errorModify": "Erreur lors de la modification IA."
+  },
+  "emailVerification": {
+      "loading": {
+        "title": "Vérification de l'email",
+        "description": "Veuillez patienter pendant que nous vérifions votre adresse email..."
+      },
+      "success": {
+        "title": "Email vérifié avec succès !",
+        "message": "Votre email a été vérifié. Vous pouvez maintenant accéder à toutes les fonctionnalités de BizzWiz.",
+        "buttonText": "Aller à la connexion",
+        "countdown": "Redirection vers la connexion dans {countdown} secondes..."
+      },
+      "alreadyVerified": {
+        "title": "Email déjà vérifié",
+        "message": "Votre email a déjà été vérifié. Vous pouvez continuer à utiliser BizzWiz.",
+        "buttonText": "Aller à la connexion"
+      },
+      "invalid": {
+        "title": "Lien de vérification invalide",
+        "message": "Le lien de vérification est invalide ou a expiré. Veuillez demander un nouvel email de vérification.",
+        "buttonText": "Demander un nouvel email",
+        "backToHome": "Retour à l'accueil"
+      },
+      "error": {
+        "title": "Échec de la vérification",
+        "message": "Une erreur s'est produite lors de la vérification. Veuillez réessayer ou contacter le support.",
+        "buttonText": "Contacter le support",
+        "backToHome": "Retour à l'accueil"
+      },
+      "default": {
+        "title": "Vérification de l'email",
+        "message": "Traitement de la vérification de votre email...",
+        "buttonText": "Aller à l'accueil"
+      },
+      "footer": {
+        "copyright": "© {year} BizzWiz. Tous droits réservés.",
+        "contactUs": "Nous contacter",
+        "privacyPolicy": "Politique de confidentialité"
+      },
+      "imageAlt": "Mascotte abeille 3D futuriste BizzWiz AI"
+    },
+    "verifyEmail": {
+      "loading": {
+        "verifying": "Vérification de l'email",
+        "resending": "Réenvoi de l'email",
+        "processing": "Traitement",
+        "verifyingDescription": "Confirmation de votre adresse email et activation de votre compte...",
+        "resendingDescription": "Envoi d'un nouveau lien de vérification à votre adresse email...",
+        "processingDescription": "Veuillez patienter pendant que nous traitons votre demande..."
+      },
+      "main": {
+        "title": "Vérifiez votre email",
+        "message": "Un email de vérification a été envoyé à <strong>{email}</strong>. Veuillez vérifier votre boîte de réception ou votre dossier de spam pour confirmer votre adresse email. Une fois vérifié, notre équipe sera notifiée pour examiner votre compte.",
+        "resendButton": "Renvoyer l'email",
+        "resendingButton": "Renvoi en cours...",
+        "backToHome": "Retour à l'accueil"
+      },
+      "toast": {
+        "success": {
+          "title": "Email vérifié",
+          "description": "Votre email a été vérifié avec succès. Redirection vers la connexion..."
+        },
+        "error": {
+          "title": "Erreur de vérification",
+          "description": "Échec de la vérification de l'email. Veuillez réessayer ou renvoyer l'email de vérification."
+        },
+        "resendSuccess": {
+          "title": "Email renvoyé",
+          "description": "Un nouveau lien de vérification a été envoyé à votre adresse email."
+        },
+        "resendError": {
+          "title": "Erreur",
+          "description": "Échec du renvoi de l'email de vérification."
+        }
+      },
+      "imageAlt": "Mascotte abeille 3D futuriste BizzWiz AI avec des accents néon violet et bleu, style cyberpunk premium"
+    },
+    "scheduleMeet": {
+    "title": "Planifier un Rendez-vous",
+    "imageAlt": "Mascotte abeille 3D futuriste BizzWiz AI avec des accents néon violet et bleu, style cyberpunk premium",
+    "form": {
+      "nameLabel": "Nom",
+      "namePlaceholder": "Entrez votre nom",
+      "figmaUrlLabel": "Lien Figma (Optionnel)",
+      "figmaUrlPlaceholder": "Entrez l’URL Figma (optionnel)",
+      "phoneNumberLabel": "Numéro de Téléphone",
+      "phoneNumberPlaceholder": "Entrez votre numéro de téléphone",
+      "dateTimeLabel": "Date et Heure du Rendez-vous",
+      "dateTimePlaceholder": "Sélectionnez la date et l’heure"
+    },
+    "buttons": {
+      "submit": "Réserver le Rendez-vous",
+      "submitting": "Réservation...",
+      "back": "Retour",
+      "backAriaLabel": "Retour au tableau de bord"
+    },
+    "toast": {
+      "error": {
+        "title": "Erreur",
+        "requiredFields": "Veuillez remplir tous les champs obligatoires.",
+        "submitError": "Échec de la réservation du rendez-vous."
+      },
+      "success": {
+        "title": "Succès",
+        "description": "Rendez-vous réservé avec succès."
+      }
+    }
+  },
+  "waitingValidation": {
+    "title": "Merci, votre identité visuelle est validée !",
+    "description": "Notre équipe étudie maintenant votre dossier.",
+    "confirmationMessage": "Vous recevrez une confirmation par e-mail dès que tout est prêt. En attendant, profitez-en pour explorer vos prochaines étapes.",
+    "buttonText": "Se connecter",
+    "imageAlt": "Personnage de validation"
+  },
+  "sidebar": {
+    "title": "Bizz Hub",
+    "navItems": {
+      "cockpit": "Votre Cockpit",
+      "projects": "Projets",
+      "newProject": "Nouveau Projet",
+      "payment": "Paiement",
+      "wizStudio": "Wiz Studio",
+      "wizLearn": "Wiz Learn",
+      "aiGenerated": "Contenu IA",
+      "settings": "Paramètres"
+    },
+    "logout": "Déconnexion",
+    "openSidebarAria": "Ouvrir la barre latérale",
+    "closeSidebarAria": "Fermer la barre latérale",
+    "toast": {
+      "success": {
+        "title": "Déconnexion réussie",
+        "description": "Vous avez été déconnecté avec succès."
+      },
+      "error": {
+        "title": "Erreur",
+        "description": "Impossible de se déconnecter."
+      }
+    }
+  },
+  "aiPage": {
+    "title": "Contenu Généré par IA",
+    "businessPlan": {
+      "header": "Plan d'Affaires",
+      "noData": "Aucun plan d'affaires généré pour le moment.",
+      "downloadButton": "Télécharger le Plan (PDF)"
+    },
+    "logo": {
+      "header": "Logo",
+      "noData": "Aucun logo généré pour le moment.",
+      "downloadButton": "Télécharger le Logo (PNG)",
+      "imageAlt": "Logo Généré"
+    },
+    "slogans": {
+      "header": "Slogans",
+      "noData": "Aucun slogan généré pour le moment."
+    },
+    "error": {
+      "missingIds": "ID utilisateur ou ID des données de formulaire introuvable",
+      "fetchFailed": "Échec de la récupération des données générées"
+    }
+  },
+  "wizStudio": {
+    "title": "Wiz Studio",
+    "description": "Studio de création visuelle avancé",
+    "comingSoon": "Bientôt disponible",
+    "features": {
+      "designSystem": {
+        "header": "Système de design",
+        "description": "Créez des systèmes de design cohérents et évolutifs avec l'IA."
+      },
+      "codeGeneration": {
+        "header": "Génération de code",
+        "description": "Générez du code optimisé directement depuis vos designs."
+      },
+      "collaboration": {
+        "header": "Collaboration",
+        "description": "Collaborez en temps réel avec votre équipe de design."
+      }
+    },
+    "notifyButton": "Me notifier du lancement"
+  },
+  "wizLearn": {
+    "title": "Wiz Learn",
+    "description": "Plateforme d'apprentissage intelligente",
+    "comingSoon": "Bientôt disponible",
+    "features": {
+      "personalizedAI": {
+        "header": "IA personnalisée",
+        "description": "Apprentissage adaptatif basé sur votre profil et vos objectifs."
+      },
+      "smartGoals": {
+        "header": "Objectifs intelligents",
+        "description": "Définition automatique d'objectifs basés sur vos projets."
+      },
+      "gamification": {
+        "header": "Gamification",
+        "description": "Système de récompenses et de défis pour maintenir la motivation."
+      }
+    },
+    "notifyButton": "Me notifier du lancement"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "description": "Gérez votre compte et vos préférences.",
+    "loading": "Chargement des paramètres...",
+    "profile": {
+      "header": "Profil",
+      "fullnameLabel": "Nom complet",
+      "emailLabel": "Email",
+      "emailNotifications": "Notifications par email",
+      "pushNotifications": "Notifications push",
+      "updateButton": "Mettre à jour le profil",
+      "updating": "Mise à jour..."
+    },
+    "security": {
+      "header": "Sécurité",
+      "newPasswordLabel": "Nouveau mot de passe",
+      "passwordPlaceholder": "••••••••",
+      "showPassword": "Afficher le mot de passe",
+      "hidePassword": "Masquer le mot de passe",
+      "changePasswordButton": "Changer le mot de passe",
+      "updating": "Mise à jour...",
+      "twoFactor": "Authentification à deux facteurs activée"
+    },
+    "toast": {
+      "profileSuccess": {
+        "title": "Succès",
+        "description": "Profil mis à jour avec succès."
+      },
+      "profileError": {
+        "title": "Erreur",
+        "description": "Impossible de mettre à jour le profil."
+      },
+      "passwordSuccess": {
+        "title": "Succès",
+        "description": "Mot de passe mis à jour avec succès."
+      },
+      "passwordError": {
+        "title": "Erreur",
+        "description": "Impossible de mettre à jour le mot de passe."
+      },
+      "passwordEmpty": {
+        "title": "Erreur",
+        "description": "Veuillez entrer un nouveau mot de passe."
+      },
+      "loadError": {
+        "title": "Erreur",
+        "description": "Impossible de charger les données utilisateur."
+      }
+    },
+    "error": {
+      "fetchFailed": "Impossible de charger les données utilisateur."
+    }
+  },
+  "projects": {
+    "title": "Le Vaisseau",
+    "description": "Gérez et suivez vos projets",
+    "loading": "Chargement des projets...",
+    "noProjects": "Aucun projet trouvé. Créez un nouveau projet pour commencer.",
+    "error": {
+      "noUser": "Utilisateur non identifié.",
+      "fetchFailed": "Échec du chargement des projets."
+    },
+    "status": {
+      "payment_done": "Payé",
+      "pending": "En attente",
+      "completed": "Terminé",
+      "rejected": "Rejeté",
+      "active": "Actif",
+      "default": "Inconnu"
+    },
+    "labels": {
+      "progress": "Progression",
+      "team": "Équipe",
+      "budget": "Budget",
+      "category": "Catégorie",
+      "noName": "Projet sans nom",
+      "noDescription": "Aucune description",
+      "noTeam": "Équipe non assignée",
+      "noBudget": "Non défini"
+    },
+    "toast": {
+      "error": {
+        "title": "Erreur",
+        "description": "Échec du chargement des projets."
+      }
+    }
+  },
+  "projectDetails": {
+    "backButton": "Retour aux projets",
+    "overview": {
+      "progress": "Progression globale",
+      "team": "Équipe",
+      "start": "Début",
+      "delivery": "Livraison",
+      "budget": "Budget",
+      "viewLive": "Voir en direct",
+      "teamChat": "Chat de l'équipe"
+    },
+    "roadmap": {
+      "header": "Feuille de route du projet",
+      "loading": "Chargement de la feuille de route...",
+      "error": "Erreur lors du chargement des données dynamiques.",
+      "noData": "Aucune feuille de route trouvée. Veuillez contacter l'administrateur.",
+      "period": "Période",
+      "responsible": "Responsable",
+      "deliverables": "Livrables",
+      "keyDeliverables": "Livrables clés",
+      "completed": "Terminé",
+      "inProgress": "En cours",
+      "pending": "En attente",
+      "lastUpdated": "Dernière mise à jour",
+      "fallbackPhase": "Phase sans titre",
+      "fallbackDescription": "Aucune description disponible.",
+      "status": {
+        "completed": "Terminé",
+        "active": "En cours",
+        "pending": "En attente",
+        "default": "Inconnu"
+      }
+    },
+    "team": {
+      "header": "Membres de l'équipe",
+      "loading": "Chargement des membres de l'équipe...",
+      "error": "Erreur lors du chargement des membres de l'équipe.",
+      "noData": "Aucun membre d'équipe trouvé. Veuillez contacter l'administrateur."
+    },
+    "technologies": {
+      "header": "Technologies",
+      "loading": "Chargement des technologies...",
+      "error": "Erreur lors du chargement des technologies.",
+      "noData": "Aucune technologie trouvée. Veuillez contacter l'administrateur."
+    },
+    "fallback": {
+      "teamLead": {
+        "name": "Chef d'équipe",
+        "role": "Gestionnaire de projet"
+      },
+      "nextMilestone": {
+        "name": "Prochain jalon",
+        "date": "15 mars 2024"
+      },
+      "deliveryDate": "15 juin 2024",
+      "technologies": ["React", "Node.js", "IA/ML", "Cloud"],
+      "noDate": "N/A"
+    },
+    "status": {
+      "PaymentDone": "Payé",
+      "default": "Inconnu"
+    }
+  },
+  "cockpit": {
+    "loading": "Chargement du projet...",
+    "noProject": "Aucun projet sélectionné.",
+    "welcome": "Synchro établie, bienvenue {name}",
+    "description": "Votre tableau de bord pour gérer et suivre vos projets",
+    "overview": {
+      "delivery": "Livraison",
+      "teamAssigned": "Équipe assignée",
+      "noTeam": "Non défini",
+      "encryptedChat": "Chat crypté",
+      "projectDetails": "Détails du projet",
+      "ascendant": "Ascendant",
+      "nextMilestone": "Prochain: {milestone}",
+      "targetDate": "Date cible"
+    },
+    "timeline": {
+      "header": "Chronologie",
+      "status": "Statut"
+    },
+    "level": {
+      "header": "Niveau",
+      "xp": "XP",
+      "nextLevel": "Prochain niveau: {milestone}",
+      "investment": "Investissement",
+      "teammates": "Équipiers",
+      "projects": "Projets",
+      "progress": "Progression"
+    },
+    "notifications": {
+      "header": "Notifications",
+      "newMessages": "Nouveaux messages",
+      "new": "nouveau",
+      "unreadMessages": "Vous avez des messages non lus dans le chat"
+    },
+    "badges": {
+      "header": "Badges",
+      "noBadges": "Aucun badge débloqué",
+      "newUser": "Nouvel utilisateur",
+      "bestUser": "Meilleur utilisateur",
+      "proInvestor": "Investisseur pro",
+      "projectCompleted": "Projet terminé",
+      "paymentDone": "Paiement effectué",
+      "bigTeam": "Grande équipe",
+      "speedster": "Rapide",
+      "persistent": "Persévérant",
+      "milestone75": "Jalon 75%",
+      "milestone50": "Jalon 50%",
+      "earlyBird": "Oiseau matinal"
+    },
+    "status": {
+      "PaymentDone": "Payé",
+      "completed": "Terminé",
+      "default": "Inconnu"
+    },
+    "featureIcons": {
+      "Settings": "Configuration",
+      "Lightbulb": "Idéation",
+      "TerminalSquare": "Développement Backend",
+      "Palette": "Design UI/UX",
+      "Code2": "Développement Frontend",
+      "ShieldCheck": "Sécurité",
+      "Users": "Gestion Utilisateurs",
+      "DollarSign": "Monétisation",
+      "BarChart2": "Analyse & Données",
+      "MessageSquare": "Communication",
+      "Database": "Base de Données",
+      "Cloud": "Infrastructure Cloud",
+      "SearchCheck": "Tests & QA",
+      "Rocket": "Lancement",
+      "Award": "Objectif Clé",
+      "TrendingUp": "Croissance/Marketing",
+      "Activity": "Tâche Générale",
+      "Milestone": "Jalon Important"
+    }
+  },
+  "chat": {
+    "encrypted": "Chiffré E2E",
+    "refreshMessages": "Actualiser les messages",
+    "minimize": "Réduire",
+    "maximize": "Agrandir",
+    "close": "Fermer",
+    "checkingMessages": "Vérification des nouveaux messages...",
+    "download": "Télécharger",
+    "preview": "Aperçu",
+    "removeAttachment": "Supprimer la pièce jointe",
+    "attachFile": "Joindre un fichier",
+    "placeholder": "Tapez votre message...",
+    "send": "Envoyer",
+    "downloadError": "Erreur lors du téléchargement du fichier",
+    "fallback": {
+      "teamLeadName": "Nom indisponible"
+    }
+  },
+  "paymentPage": {
+    "loading": "Chargement des liens...",
+    "header": "Liens du Projet",
+    "description": "Accédez à vos ressources et effectuez le paiement",
+    "back": "Retour",
+    "figma": {
+      "header": "Design Figma",
+      "description": "Consultez vos maquettes",
+      "linkLabel": "Lien Figma",
+      "open": "Ouvrir Figma",
+      "available": "Lien disponible",
+      "pending": "En attente de configuration"
+    },
+    "payment": {
+      "header": "Paiement Sécurisé",
+      "description": "Finalisez votre commande",
+      "linkLabel": "Lien de Paiement",
+      "payNow": "Payer Maintenant",
+      "available": "Paiement sécurisé disponible",
+      "pending": "En attente de configuration"
+    },
+    "information": {
+      "header": "Informations Importantes",
+      "security": {
+        "header": "Sécurité",
+        "description": "Tous les paiements sont sécurisés et traités via des plateformes certifiées."
+      },
+      "figmaAccess": {
+        "header": "Accès Figma",
+        "description": "Les designs sont accessibles via le lien Figma fourni après le paiement."
+      },
+      "externalLinks": {
+        "header": "Liens Externes",
+        "description": "Les liens s'ouvrent dans de nouveaux onglets pour votre sécurité."
+      },
+      "copyLinks": {
+        "header": "Copier les Liens",
+        "description": "Utilisez le bouton copier pour partager les liens facilement."
+      }
+    },
+    "support": "Besoin d'aide ? Contactez notre support client",
+    "fetchLinksError": {
+      "title": "Information",
+      "description": "Aucun lien de paiement ou Figma disponible pour ce projet."
+    },
+    "copySuccess": {
+      "title": "Copié !",
+      "description": "Le lien a été copié dans le presse-papiers."
+    },
+    "copyError": {
+      "title": "Erreur",
+      "description": "Impossible de copier le lien."
+    },
+    "fallback": {
+      "notAvailable": "Non disponible"
+    }
+  },
+  "dashboard": {
+    "loading": "Vérification de l'authentification...",
+    "authError": {
+      "title": "Accès Refusé",
+      "description": "Veuillez vous connecter pour accéder à cette page."
+    },
+    "fetchProjectError": {
+      "title": "Erreur",
+      "description": "Impossible de charger les détails du projet.",
+      "fallback": "Échec du chargement des détails du projet."
+    }
+  },
+  "updatePassword": {
+    "title": "Mise à Jour du Mot de Passe",
+    "description": "Entrez un nouveau mot de passe pour sécuriser votre compte.",
+    "emailLabel": "Adresse Email",
+    "emailPlaceholder": "votre.email@galaxie.com",
+    "passwordLabel": "Nouveau Mot de Passe",
+    "passwordConfirmationLabel": "Confirmer le Mot de Passe",
+    "submitButton": "Mettre à Jour le Mot de Passe",
+    "submitting": "Mise à jour...",
+    "backToLogin": "Retour à la Connexion",
+    "noAccount": "Pas encore de compte ?",
+    "createAccount": "Créer un Compte",
+    "successTitle": "Mot de Passe Mis à Jour",
+    "successDescription": "Votre mot de passe a été mis à jour avec succès. Redirection vers la connexion...",
+    "passwordStrength": {
+      "label": "Force du Mot de Passe",
+      "minLength": "Au moins 8 caractères",
+      "uppercase": "Au moins une lettre majuscule",
+      "lowercase": "Au moins une lettre minuscule",
+      "number": "Au moins un chiffre",
+      "specialChar": "Au moins un caractère spécial"
+    },
+    "errors": {
+      "validationTitle": "Erreur de Validation",
+      "validationDescription": "Veuillez corriger les erreurs ci-dessous et réessayer.",
+      "submitTitle": "Échec de la Mise à Jour",
+      "submitDefault": "Le lien de réinitialisation est invalide ou a expiré.",
+      "email": {
+        "required": "L'adresse email est requise.",
+        "invalid": "Veuillez entrer une adresse email valide."
+      },
+      "password": {
+        "required": "Le mot de passe est requis.",
+        "minLength": "Le mot de passe doit contenir au moins 8 caractères."
+      },
+      "passwordConfirmation": {
+        "required": "La confirmation du mot de passe est requise.",
+        "mismatch": "Les mots de passe ne correspondent pas."
+      }
+    },
+    "instructions": {
+      "title": "Instructions de Réinitialisation",
+      "step1": "Entrez l'adresse email associée à votre compte.",
+      "step2": "Créez un mot de passe fort avec au moins 8 caractères incluant majuscules, minuscules, chiffres et caractères spéciaux.",
+      "step3": "Confirmez votre nouveau mot de passe en le tapant à nouveau dans le champ de confirmation.",
+      "step4": "Cliquez sur 'Mettre à Jour le Mot de Passe' pour sauvegarder votre nouveau mot de passe.",
+      "step5": "Vous serez redirigé vers la page de connexion où vous pourrez vous connecter avec vos nouveaux identifiants."
+    }
+  }
+
+  }
