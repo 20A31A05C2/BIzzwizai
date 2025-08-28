@@ -1,0 +1,116 @@
+@tailwind base;
+
+@layer base {
+  :root {
+    /* Quantum Leap Palette - Nouveau Design "Cosmic Flow" */
+    --bizzwiz-deep-space: 220 70% 4%; 
+    --bizzwiz-nebula-purple: 270 75% 48%; 
+    --bizzwiz-electric-cyan: 190 100% 52%; 
+    --bizzwiz-magenta-flare: 320 95% 58%; 
+    
+    --bizzwiz-star-white: 0 0% 98%; 
+    --bizzwiz-comet-tail: 220 35% 80%; 
+
+    --bizzwiz-glass-bg: 220 45% 10%; 
+
+    /* Variables sémantiques Tailwind */
+    --background: var(--bizzwiz-deep-space);
+    --foreground: var(--bizzwiz-star-white);
+    
+    --card: var(--bizzwiz-glass-bg);
+    --card-foreground: var(--bizzwiz-star-white);
+    
+    --popover: var(--bizzwiz-glass-bg);
+    --popover-foreground: var(--bizzwiz-star-white);
+    
+    --primary: var(--bizzwiz-nebula-purple); 
+    --primary-foreground: var(--bizzwiz-star-white);
+    
+    --secondary: var(--bizzwiz-electric-cyan);
+    --secondary-foreground: var(--bizzwiz-deep-space);
+    
+    --muted: 220 30% 22%; 
+    --muted-foreground: var(--bizzwiz-comet-tail);
+    
+    --accent: var(--bizzwiz-nebula-purple); 
+    --accent-foreground: var(--bizzwiz-star-white);
+    
+    --destructive: 0 85% 60%;
+    --destructive-foreground: var(--bizzwiz-star-white);
+    
+    --border: 220 40% 20%; 
+    --input: 220 40% 17%; 
+    --ring: var(--bizzwiz-electric-cyan);
+    
+    --radius: 0.8rem; 
+
+    /* Versions RGB pour opacité */
+    --bizzwiz-deep-space-rgb: 3, 10, 20;
+    --bizzwiz-nebula-purple-rgb: 110, 51, 194;
+    --bizzwiz-electric-cyan-rgb: 5, 212, 255;
+    --bizzwiz-magenta-flare-rgb: 247, 30, 181;
+    --bizzwiz-star-white-rgb: 250, 250, 250;
+    --bizzwiz-comet-tail-rgb: 185, 198, 224;
+    --bizzwiz-glass-bg-rgb: 19, 25, 37;
+
+    /* Mapping pour la Navbar (elle garde ses couleurs mais sur fond adapté) */
+    --bizzwiz-nav-accent-hsl: var(--bizzwiz-nebula-purple);
+    --bizzwiz-nav-cyan-hsl: var(--bizzwiz-electric-cyan);
+    --bizzwiz-nav-accent-rgb: var(--bizzwiz-nebula-purple-rgb);
+    --bizzwiz-nav-cyan-rgb: var(--bizzwiz-electric-cyan-rgb);
+
+    --bizzwiz-accent: var(--bizzwiz-nebula-purple);
+    --bizzwiz-accent-rgb: var(--bizzwiz-nebula-purple-rgb);
+    --bizzwiz-secondary: var(--bizzwiz-electric-cyan);
+    --bizzwiz-secondary-rgb: var(--bizzwiz-electric-cyan-rgb);
+    --bizzwiz-pink-glow: var(--bizzwiz-magenta-flare);
+    --bizzwiz-pink-glow-rgb: var(--bizzwiz-magenta-flare-rgb);
+    
+    --bizzwiz-background: var(--bizzwiz-deep-space);
+    --bizzwiz-background-rgb: var(--bizzwiz-deep-space-rgb);
+    --bizzwiz-card-background: var(--bizzwiz-glass-bg);
+    --bizzwiz-card-background-rgb: var(--bizzwiz-glass-bg-rgb);
+    --bizzwiz-text-primary: var(--bizzwiz-star-white);
+    --bizzwiz-text-secondary: var(--bizzwiz-comet-tail);
+    --bizzwiz-text-secondary-rgb: var(--bizzwiz-comet-tail-rgb);
+    --bizzwiz-input-rgb: var(--bizzwiz-glass-bg-rgb);
+
+    --bizzwiz-text-main: hsl(var(--bizzwiz-star-white));
+    --bizzwiz-text-alt: hsl(var(--bizzwiz-comet-tail));
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  * {
+    @apply border-border;
+    scrollbar-width: thin;
+    scrollbar-color: hsl(var(--bizzwiz-electric-cyan)) transparent;
+  }
+  *::-webkit-scrollbar {
+    width: 9px; 
+  }
+  *::-webkit-scrollbar-track {
+    background: hsla(var(--bizzwiz-deep-space-rgb) / 0.8);
+  }
+  *::-webkit-scrollbar-thumb {
+    background-color: hsla(var(--bizzwiz-electric-cyan-rgb) / 0.6); 
+    border-radius: 9px;
+    border: 2px solid transparent;
+    background-clip: content-box;
+  }
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: hsla(var(--bizzwiz-electric-cyan-rgb) / 0.9);
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Space Grotesk', 'Satoshi', 'Roboto Mono', system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-feature-settings: "cv11", "ss01", "salt", "liga", "calt";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    @apply overflow-x-hidden;
+  }
+}
