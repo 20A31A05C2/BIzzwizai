@@ -67,7 +67,7 @@ const AppWrapper = () => {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/register" element={<RegisterPage />} />
-            <Route path="/adminregister" element={<AdminRegisterPage />} />
+{/*             <Route path="/adminregister" element={<AdminRegisterPage />} /> */}
             <Route path="/create-project" element={
               <div className="min-h-screen flex flex-col items-center justify-center p-4 relative">
                 <MultiStepFormView />
