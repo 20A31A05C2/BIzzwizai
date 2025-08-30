@@ -560,7 +560,7 @@ const SloganGeneration = ({ setCurrentView }) => {
                 value={manualText}
                 onChange={(e) => setManualText(e.target.value)}
                 rows={12}
-                className="w-full bg-bizzwiz-card-secondary backdrop-blur-sm border border-bizzwiz-border text-bizzwiz-text placeholder-bizzwiz-text-alt/60 rounded-xl p-3 font-montserrat focus:border-bizzwiz-accent-primary/50 focus:shadow-[0_0_10px_rgba(159,67,242,0.2)]"
+                className="w-full bg-black backdrop-blur-sm border border-bizzwiz-border text-bizzwiz-text placeholder-bizzwiz-text-alt/60 rounded-xl p-3 font-montserrat focus:border-bizzwiz-accent-primary/50 focus:shadow-[0_0_10px_rgba(159,67,242,0.2)]"
                 placeholder={t('sloganComponent.manualModalPlaceholder')}
               />
               <div className="flex gap-3 mt-4">
