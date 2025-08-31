@@ -223,24 +223,51 @@ const LogoComponent = ({ setCurrentView }) => {
     }
   };
 
+  // const downloadLogo = async () => {
+  //   if (!existingLogoUrl) return;
+  //   try {
+  //     const response = await fetch(existingLogoUrl, { mode: 'cors' });
+  //     if (!response.ok) throw new Error('Failed to fetch logo');
+  //     const blob = await response.blob();
+  //     const url = window.URL.createObjectURL(blob);
+  //     const link = document.createElement('a');
+  //     link.href = url;
+  //     link.download = 'generated-logo.png';
+  //     document.body.appendChild(link);
+  //     link.click();
+  //     document.body.removeChild(link);
+  //     window.URL.revokeObjectURL(url);
+  //   } catch (err) {
+  //     console.error('Download failed:', err);
+  //   }
+  // };
+
   const downloadLogo = async () => {
     if (!existingLogoUrl) return;
+
     try {
-      const response = await fetch(existingLogoUrl, { mode: 'cors' });
-      if (!response.ok) throw new Error('Failed to fetch logo');
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = 'generated-logo.png';
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      window.URL.revokeObjectURL(url);
+        const response = await fetch(`https://bizzwiz.indibase.in/api/download-logo/${existingLogoUrl.split('/').pop()}`, {
+            method: 'GET',
+            headers: {
+                'Accept': 'image/png',
+            },
+        });
+
+        if (!response.ok) throw new Error('Failed to fetch logo');
+
+        const blob = await response.blob();
+        const url = window.URL.createObjectURL(blob);
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = 'generated-logo.png';
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        window.URL.revokeObjectURL(url);
     } catch (err) {
-      console.error('Download failed:', err);
+        console.error('Download failed:', err);
     }
-  };
+};
 
   const handleBack = () => {
     navigate('/font');
