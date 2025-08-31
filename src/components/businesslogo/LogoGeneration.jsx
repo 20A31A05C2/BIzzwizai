@@ -248,74 +248,24 @@ const downloadLogo = async () => {
   if (!existingLogoUrl) return;
   
   try {
-    // First try to fetch with a proxy or different method
-    const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(existingLogoUrl)}`;
+    const userId = localStorage.getItem('bizwizuser_id');
+    const formDataId = localStorage.getItem('bizwiz_form_data_id');
     
-    const response = await fetch(proxyUrl);
-    if (!response.ok) throw new Error('Proxy fetch failed');
+    // Create download URL using your backend endpoint
+    const downloadUrl = `${process.env.REACT_APP_API_BASE_URL || 'https://bizzwiz.indibase.in/api'}/download-logo?user_id=${userId}&form_data_id=${formDataId}`;
     
-    const blob = await response.blob();
-    const url = window.URL.createObjectURL(blob);
+    // Create temporary link and trigger download
     const link = document.createElement('a');
-    link.href = url;
+    link.href = downloadUrl;
     link.download = 'generated-logo.png';
+    link.target = '_blank';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    window.URL.revokeObjectURL(url);
+    
   } catch (err) {
     console.error('Download failed:', err);
-    
-    // Fallback 1: Try opening in new window for user to save manually
-    try {
-      const newWindow = window.open(existingLogoUrl, '_blank');
-      if (newWindow) {
-        // Show instructions to user
-        setTimeout(() => {
-          alert('Image opened in new tab. Right-click and select "Save image as..." to download.');
-        }, 1000);
-      } else {
-        throw new Error('Popup blocked');
-      }
-    } catch (fallbackErr) {
-      // Fallback 2: Create a download link button
-      const downloadLink = document.createElement('a');
-      downloadLink.href = existingLogoUrl;
-      downloadLink.target = '_blank';
-      downloadLink.download = 'generated-logo.png';
-      downloadLink.textContent = 'Click here to download logo';
-      downloadLink.style.cssText = 'color: #9f43f2; text-decoration: underline; cursor: pointer;';
-      
-      // Show modal or alert with the link
-      const modal = document.createElement('div');
-      modal.style.cssText = `
-        position: fixed; top: 0; left: 0; right: 0; bottom: 0; 
-        background: rgba(0,0,0,0.8); display: flex; align-items: center; 
-        justify-content: center; z-index: 9999;
-      `;
-      
-      const content = document.createElement('div');
-      content.style.cssText = `
-        background: white; padding: 20px; border-radius: 10px; 
-        text-align: center; max-width: 300px;
-      `;
-      
-      content.innerHTML = `
-        <p style="margin-bottom: 15px; color: black;">
-          Direct download failed. Please use the link below:
-        </p>
-        <div style="margin-bottom: 15px;"></div>
-        <button onclick="this.parentElement.parentElement.parentElement.remove()" 
-                style="background: #9f43f2; color: white; border: none; 
-                       padding: 8px 16px; border-radius: 5px; cursor: pointer;">
-          Close
-        </button>
-      `;
-      
-      content.children[1].appendChild(downloadLink);
-      modal.appendChild(content);
-      document.body.appendChild(modal);
-    }
+    alert('Download failed. Please try again.');
   }
 };
 
