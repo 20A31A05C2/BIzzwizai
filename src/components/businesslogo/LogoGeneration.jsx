@@ -251,24 +251,38 @@ const downloadLogo = async () => {
     const userId = localStorage.getItem('bizwizuser_id');
     const formDataId = localStorage.getItem('bizwiz_form_data_id');
     
-    // Create download URL using your backend endpoint
+    // Create download URL
     const downloadUrl = `${process.env.REACT_APP_API_BASE_URL || 'https://bizzwiz.indibase.in/api'}/download-logo?user_id=${userId}&form_data_id=${formDataId}`;
     
-    // Create temporary link and trigger download
+    // Fetch the file as blob
+    const response = await fetch(downloadUrl);
+    if (!response.ok) throw new Error('Download failed');
+    
+    const blob = await response.blob();
+    
+    // Create object URL and download
+    const url = window.URL.createObjectURL(blob);
     const link = document.createElement('a');
-    link.href = downloadUrl;
+    link.href = url;
     link.download = 'generated-logo.png';
-    link.target = '_blank';
+    
+    // Hide the link and add to DOM
+    link.style.display = 'none';
     document.body.appendChild(link);
+    
+    // Trigger download
     link.click();
+    
+    // Cleanup
     document.body.removeChild(link);
+    window.URL.revokeObjectURL(url);
     
   } catch (err) {
     console.error('Download failed:', err);
     alert('Download failed. Please try again.');
   }
 };
-
+  
   const handleBack = () => {
     navigate('/font');
   };
