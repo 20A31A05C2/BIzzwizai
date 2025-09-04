@@ -31,7 +31,8 @@ const TopHeaderBar = () => {
         <img
           src="flag.png"
           alt="Logo"
-          className="w-12 h-6 rounded-2xl object-contain"
+          className="w-12 h-6 rounded-2xl object-contain cursor-pointer"
+          onClick={() => navigate('/')}
         />
       </div>
 
