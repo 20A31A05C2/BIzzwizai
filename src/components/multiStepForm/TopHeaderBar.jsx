@@ -31,7 +31,7 @@ const TopHeaderBar = () => {
         <img
           src="flag.png"
           alt="Logo"
-          className="w-8 h-5 sm:w-12 sm:h-7 md:w-16 md:h-9 lg:w-20 lg:h-10 rounded-2xl object-contain"
+          className="w-12 h-6 rounded-2xl object-contain"
         />
       </div>
 
