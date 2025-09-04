@@ -207,7 +207,7 @@ const ScheduleMeetPage = () => {
             />
           </div>
 
-          <div>
+{/*           <div>
             <label className="font-medium text-bizzwiz-star-white block mb-1">{t('scheduleMeet.form.figmaUrlLabel')}</label>
             <input
               type="url"
@@ -219,7 +219,7 @@ const ScheduleMeetPage = () => {
               )}
               placeholder={t('scheduleMeet.form.figmaUrlPlaceholder')}
             />
-          </div>
+          </div> */}
 
           <div>
             <label className="font-medium text-bizzwiz-star-white block mb-1">{t('scheduleMeet.form.phoneNumberLabel')}</label>
