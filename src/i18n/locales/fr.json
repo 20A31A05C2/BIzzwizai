@@ -1420,6 +1420,23 @@
     "category_tutorial": "Tutoriel",
     "category_advanced": "Avancé",
     "category_interface": "Interface"
+  },
+    "visual_identity": {
+    "level_header": "IDENTITAIRE",
+    "confirm_description": "Confirmez votre identité visuelle pour continuer le processus.",
+    "fetch_error": "Échec du chargement de l'identité visuelle. Veuillez réessayer.",
+    "confirm_button": "Confirmer",
+    "loading": "Chargement de l'identité visuelle...",
+    "no_data": "Aucune donnée d'identité visuelle disponible. Veuillez compléter les étapes précédentes.",
+    "retry_button": "Réessayer",
+    "go_back_button": "Retour à l'étape du Logo",
+    "go_back_design": "Retour au Design",
+    "validated_logo_alt": "Logo Validé",
+    "color_palette_title": "Palette de Couleurs",
+    "logo_title": "Logo",
+    "font_title": "Police",
+    "logo_unavailable": "Logo non disponible",
+    "no_data_to_display": "Aucune donnée d'identité visuelle disponible à afficher."
   }
 
   }
