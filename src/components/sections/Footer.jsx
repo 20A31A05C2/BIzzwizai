@@ -50,19 +50,19 @@ const Footer = () => {
 
   // Define footer links structure with translation keys
   const footerLinksData = {
-    services: [
-      { key: 'footer.services.webDevelopment', href: "#" },
-      { key: 'footer.services.mobileApps', href: "#" },
-      { key: 'footer.services.uiUxDesign', href: "#" },
-      { key: 'footer.services.digitalMarketing', href: "#" },
-      { key: 'footer.services.consulting', href: "#" },
-    ],
+    // services: [
+    //   { key: 'footer.services.webDevelopment', href: "#" },
+    //   { key: 'footer.services.mobileApps', href: "#" },
+    //   { key: 'footer.services.uiUxDesign', href: "#" },
+    //   { key: 'footer.services.digitalMarketing', href: "#" },
+    //   { key: 'footer.services.consulting', href: "#" },
+    // ],
     company: [
       { key: 'footer.company.aboutUs', href: "#" },
       { key: 'footer.company.ourTeam', href: "#" },
       { key: 'footer.company.careers', href: "#" },
       { key: 'footer.company.contact', href: "#" },
-      { key: 'footer.company.blog', href: "#" },
+      // { key: 'footer.company.blog', href: "#" },
     ],
     resources: [
       { key: 'footer.resources.documentation', href: "#" },
