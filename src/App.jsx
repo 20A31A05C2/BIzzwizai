@@ -44,6 +44,7 @@ import LogoGeneration from './components/businesslogo/LogoGeneration';
 import DesignSelection from './components/businesslogo/DesignSelection';
 import Creditspurchase from './components/views/Creditpurchase';
 import FontSelection from './components/businesslogo/FontSelection';
+import VisualIdentityConfirmation from './components/businesslogo/VisualIdentityConfirmation';
 
 const AppWrapper = () => {
   const location = useLocation();
@@ -95,6 +96,7 @@ const AppWrapper = () => {
             <Route path="/purchase" element={<Creditspurchase />} />
             <Route path="/project" element={<SelectProject />} />
             <Route path="/waiting-validation" element={<WaitingValidationPage />} />
+            <Route path="/verified" element={<VisualIdentityConfirmation />} />
             <Route path="/login" element={
               <ErrorBoundary>
                 <LoginPage />
