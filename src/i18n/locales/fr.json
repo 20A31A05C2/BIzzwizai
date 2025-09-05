@@ -15,7 +15,8 @@
     },
     "ourWorks": {
       "title": "Notre travail",
-      "description": "Découvrez comment nous donnons vie aux idées à travers des projets réels."
+      "description": "Découvrez comment nous donnons vie aux idées à travers des projets réels.",
+        "viewProjectsButton": "Voir les projets"
     },
     "howItWorks": {
       "title": "Comment ça marche",
@@ -1530,6 +1531,19 @@
     "contact": {
       "title": "3. Contact",
       "description": "Adresse e-mail : contact@bizzwiz.ai"
+    }
+  },
+    "common": {
+    "back": "Retour"
+  },
+  "viewprojects": {
+    "title": "Tous les projets",
+    "subtitle": "Explorez notre portefeuille de projets réussis et de solutions innovantes",
+    "viewDetails": "Voir les détails",
+    "cta": {
+      "title": "Prêt à commencer votre projet ?",
+      "description": "Rejoignez des centaines de clients satisfaits qui nous ont fait confiance pour réaliser leur vision",
+      "button": "Commencer mon projet"
     }
   }
 
