@@ -1,8 +1,10 @@
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
+import { useNavigate } from 'react-router-dom';
 
 const OurWorksSection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   // Animation variants
   const containerVariants = {
@@ -158,6 +160,23 @@ const OurWorksSection = () => {
             ></iframe>
           </motion.div>
         </div>
+        {/* View Projects Button */}
+        <motion.div
+          className="flex justify-center mt-12 sm:mt-16 md:mt-20"
+          variants={itemVariants}
+        >
+          <motion.button
+            onClick={() => navigate('/projects')}
+            className="bg-gradient-to-r from-[#3ABEFF] to-[#FF8C42] text-white font-semibold py-3 sm:py-4 px-8 sm:px-12 rounded-xl sm:rounded-2xl text-sm sm:text-base md:text-lg lg:text-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+            whileHover={{ 
+              boxShadow: "0 20px 40px rgba(58, 190, 255, 0.3)",
+              y: -2
+            }}
+            whileTap={{ scale: 0.95 }}
+          >
+            {t('ourWorks.viewProjectsButton')}
+          </motion.button>
+        </motion.div>
       </motion.div>
     </section>
   );
