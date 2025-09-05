@@ -15,7 +15,8 @@
     },
     "ourWorks": {
       "title": "Our Work",
-      "description": "Discover how we bring ideas to life through real projects."
+      "description": "Discover how we bring ideas to life through real projects.",
+        "viewProjectsButton": "View Projects"
     },
     "howItWorks": {
       "title": "How It Works",
@@ -1532,6 +1533,19 @@
     "contact": {
       "title": "3. Contact",
       "description": "Email address: contact@bizzwiz.ai"
+    }
+  },
+    "common": {
+    "back": "Back"
+  },
+  "viewprojects": {
+    "title": "All Projects",
+    "subtitle": "Explore our portfolio of successful projects and innovative solutions",
+    "viewDetails": "View Details",
+    "cta": {
+      "title": "Ready to Start Your Project?",
+      "description": "Join hundreds of satisfied clients who trusted us with their vision",
+      "button": "Start My Project"
     }
   }
   
