@@ -61,7 +61,7 @@ const Footer = () => {
     company: [
       { key: 'footer.company.aboutUs', href: "#" },
       { key: 'footer.company.ourTeam', href: "#" },
-      // { key: 'footer.company.careers', href: "#" },
+      { key: 'footer.company.careers', href: "#" },
       { key: 'footer.company.contact', href: "#" },
       // { key: 'footer.company.blog', href: "#" },
     ],
