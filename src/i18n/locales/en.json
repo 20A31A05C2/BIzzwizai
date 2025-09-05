@@ -1422,6 +1422,23 @@
     "category_tutorial": "Tutorial",
     "category_advanced": "Advanced",
     "category_interface": "Interface"
+  },
+    "visual_identity": {
+    "level_header": "IDENTITY",
+    "confirm_description": "Confirm your visual identity to continue the process.",
+    "fetch_error": "Failed to load visual identity. Please try again.",
+    "confirm_button": "Confirm",
+    "loading": "Loading visual identity...",
+    "no_data": "No visual identity data available. Please complete previous steps.",
+    "retry_button": "Retry",
+    "go_back_button": "Go Back to Logo Step",
+    "go_back_design": "Go Back to Design",
+    "validated_logo_alt": "Validated Logo",
+    "color_palette_title": "Color Palette",
+    "logo_title": "Logo",
+    "font_title": "Font",
+    "logo_unavailable": "Logo unavailable",
+    "no_data_to_display": "No visual identity data available to display."
   }
   
   }
