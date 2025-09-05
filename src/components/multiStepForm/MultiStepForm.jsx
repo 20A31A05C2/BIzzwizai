@@ -18,7 +18,7 @@ import { toast } from '@/components/ui/use-toast';
 import ApiService from '@/apiService';
 import { useTranslation } from 'react-i18next';
 import LevelHeader from '@/components/multiStepForm/LevelHeader';
-import TopHeaderBar from './TopHeaderbar';
+import TopHeaderBar from '@/components/multiStepForm/TopHeaderbar';
 
 const MultiStepForm = ({ onSubmit: onSubmitExternal, mode = 'register' }) => {
   const {
