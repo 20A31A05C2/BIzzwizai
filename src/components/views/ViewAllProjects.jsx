@@ -3,6 +3,8 @@ import { motion } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft, ExternalLink, Play } from 'lucide-react';
+import Navbar from '@/components/layout/Navbar';
+import Footer from '@/components/sections/Footer';
 
 const ViewAllProjects = () => {
   const { t } = useTranslation();
@@ -110,6 +112,10 @@ const ViewAllProjects = () => {
 
   return (
     <div className="min-h-screen bg-black text-white font-montserrat">
+      <Navbar /> {/* Imported Navbar at the top */}
+      <br />
+      <br />
+
       {/* Header Section */}
       <motion.div
         className="relative bg-gradient-to-br from-gray-900 via-black to-gray-900 py-16 sm:py-20 md:py-24"
@@ -119,7 +125,7 @@ const ViewAllProjects = () => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
-          <motion.button
+          {/* <motion.button
             onClick={() => navigate(-1)}
             className="inline-flex items-center text-gray-300 hover:text-white mb-8 transition-colors duration-200"
             whileHover={{ x: -5 }}
@@ -127,7 +133,7 @@ const ViewAllProjects = () => {
           >
             <ArrowLeft className="w-5 h-5 mr-2" />
             {t('common.back')}
-          </motion.button>
+          </motion.button> */}
 
           <div className="text-center">
             <motion.h1
@@ -259,6 +265,8 @@ const ViewAllProjects = () => {
           </motion.button>
         </motion.div>
       </motion.div>
+
+      <Footer /> {/* Imported Footer at the bottom */}
     </div>
   );
 };
