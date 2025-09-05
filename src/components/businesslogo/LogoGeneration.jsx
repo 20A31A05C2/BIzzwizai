@@ -303,7 +303,7 @@ const downloadLogo = async () => {
       setShowValidationDialog(false);
 
       // Navigate to next step
-      navigate('/call');
+      navigate('/verified');
     } catch (err) {
       console.error('Validation failed:', err);
     }
