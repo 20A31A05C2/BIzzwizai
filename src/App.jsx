@@ -8,6 +8,7 @@ import MultiStepFormView from '@/components/views/MultiStepFormView';
 import LandingPage from '@/components/views/LandingPage';
 import ContactPage from '@/components/views/ContactPage';
 import FAQPage from '@/components/views/FAQPage';
+import DocumentationPage from '@/components/views/DocumentationPage';
 import GeneratingRoadmapPage from '@/components/views/GeneratingRoadmapPage';
 import ProjectPendingReviewPage from '@/components/views/ProjectPendingReviewPage';
 import PaymentPage from '@/components/views/PaymentPage';
@@ -66,6 +67,7 @@ const AppWrapper = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
+            <Route path="/documentation" element={<DocumentationPage />} />
             <Route path="/register" element={<RegisterPage />} />
 {/*             <Route path="/adminregister" element={<AdminRegisterPage />} /> */}
             <Route path="/create-project" element={
