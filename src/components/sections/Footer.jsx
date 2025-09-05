@@ -74,9 +74,9 @@ const Footer = () => {
   };
 
   const socialLinks = [
-    { Icon: Facebook, href: "https://www.facebook.com/bizzwizai", color: "hover:text-blue-400" },
-    { Icon: Twitter, href: "https://x.com/bizzwizai", color: "hover:text-sky-400" },
-    { Icon: Instagram, href: "https://instagram.com/bizzwizai", color: "hover:text-pink-400" },
+    // { Icon: Facebook, href: "https://www.facebook.com/bizzwizai", color: "hover:text-blue-400" },
+    // { Icon: Twitter, href: "https://x.com/bizzwizai", color: "hover:text-sky-400" },
+    // { Icon: Instagram, href: "https://instagram.com/bizzwizai", color: "hover:text-pink-400" },
     { Icon: Linkedin, href: "https://linkedin.com/company/bizzwizai", color: "hover:text-blue-500" },
     { Icon: Github, href: "https://github.com/bizzwizai", color: "hover:text-gray-300" },
   ];
