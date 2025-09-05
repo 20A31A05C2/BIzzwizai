@@ -45,6 +45,10 @@ import DesignSelection from './components/businesslogo/DesignSelection';
 import Creditspurchase from './components/views/Creditpurchase';
 import FontSelection from './components/businesslogo/FontSelection';
 import VisualIdentityConfirmation from './components/businesslogo/VisualIdentityConfirmation';
+import PrivacyPolicy from './components/PrivacyPolicy';
+import TermsAndCondition from './components/TermsAndConditions';
+import CookiePolicy from './components/CookiePolicy';
+import LegalNotice from './components/LegalNotice';
 
 const AppWrapper = () => {
   const location = useLocation();
@@ -69,6 +73,10 @@ const AppWrapper = () => {
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/documentation" element={<DocumentationPage />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
+            <Route path="/cookie-policy" element={<CookiePolicy />} />
+            <Route path="/legal-notice" element={<LegalNotice />} />
             <Route path="/register" element={<RegisterPage />} />
 {/*             <Route path="/adminregister" element={<AdminRegisterPage />} /> */}
             <Route path="/create-project" element={
