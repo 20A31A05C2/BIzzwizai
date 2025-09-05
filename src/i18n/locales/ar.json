@@ -1456,5 +1456,22 @@
     "category_tutorial": "درس",
     "category_advanced": "متقدم",
     "category_interface": "واجهة"
+  },
+    "visual_identity": {
+    "level_header": "الهوية البصرية",
+    "confirm_description": "أكد هويتك البصرية للمتابعة في العملية.",
+    "fetch_error": "فشل تحميل الهوية البصرية. يرجى المحاولة مرة أخرى.",
+    "confirm_button": "تأكيد",
+    "loading": "جارٍ تحميل الهوية البصرية...",
+    "no_data": "لا توجد بيانات هوية بصرية متاحة. يرجى إكمال الخطوات السابقة.",
+    "retry_button": "إعادة المحاولة",
+    "go_back_button": "العودة إلى خطوة الشعار",
+    "go_back_design": "العودة إلى التصميم",
+    "validated_logo_alt": "الشعار المصادق عليه",
+    "color_palette_title": "لوحة الألوان",
+    "logo_title": "الشعار",
+    "font_title": "الخط",
+    "logo_unavailable": "الشعار غير متاح",
+    "no_data_to_display": "لا توجد بيانات هوية بصرية متاحة للعرض."
   }
 }
