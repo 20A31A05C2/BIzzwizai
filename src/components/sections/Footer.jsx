@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
   Mail,
   Phone,
@@ -65,7 +66,7 @@ const Footer = () => {
       // { key: 'footer.company.blog', href: "#" },
     ],
     resources: [
-      { key: 'footer.resources.documentation', href: "#" },
+      { key: 'footer.resources.documentation', href: "/documentation" },
       { key: 'footer.resources.helpCenter', href: "#" },
       { key: 'footer.resources.privacyPolicy', href: "#" },
       { key: 'footer.resources.termsOfUse', href: "#" },
@@ -143,12 +144,21 @@ const Footer = () => {
                 <ul className="space-y-2 sm:space-y-3 md:space-y-4">
                   {links.map((link, linkIndex) => (
                     <li key={linkIndex}>
-                      <a
-                        href={link.href}
-                        className="text-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base md:text-lg hover:translate-x-1 inline-block hover:scale-105"
-                      >
-                        {t(link.key)}
-                      </a>
+                      {link.href.startsWith('/') ? (
+                        <Link
+                          to={link.href}
+                          className="text-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base md:text-lg hover:translate-x-1 inline-block hover:scale-105"
+                        >
+                          {t(link.key)}
+                        </Link>
+                      ) : (
+                        <a
+                          href={link.href}
+                          className="text-gray-300 hover:text-white transition-all duration-300 text-sm sm:text-base md:text-lg hover:translate-x-1 inline-block hover:scale-105"
+                        >
+                          {t(link.key)}
+                        </a>
+                      )}
                     </li>
                   ))}
                 </ul>
