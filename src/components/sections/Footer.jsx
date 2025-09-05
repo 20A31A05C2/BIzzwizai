@@ -67,10 +67,10 @@ const Footer = () => {
     ],
     resources: [
       { key: 'footer.resources.documentation', href: "/documentation" },
-      { key: 'footer.resources.helpCenter', href: "#" },
-      { key: 'footer.resources.privacyPolicy', href: "#" },
-      { key: 'footer.resources.termsOfUse', href: "#" },
-      { key: 'footer.resources.cookiePolicy', href: "#" },
+      { key: 'footer.resources.privacyPolicy', href: "/privacy-policy" },
+      { key: 'footer.resources.termsOfUse', href: "/terms-and-conditions" },
+      { key: 'footer.resources.cookiePolicy', href: "/cookie-policy" },
+      { key: 'footer.resources.helpCenter', href: "/legal-notice" },
     ],
   };
 
