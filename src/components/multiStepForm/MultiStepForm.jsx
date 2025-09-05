@@ -11,7 +11,7 @@ import StepSolutionType from '@/components/multiStepForm/steps/StepSolutionType'
 import StepAudience from '@/components/multiStepForm/steps/StepAudience';
 import StepFeatures from '@/components/multiStepForm/steps/StepFeatures';
 import StepVisualStyle from '@/components/multiStepForm/steps/StepVisualStyle';
-import ColorPaletteSelection from '@/components/multiStepForm/steps/ColorPaletteSelection';
+// import ColorPaletteSelection from '@/components/multiStepForm/steps/ColorPaletteSelection';
 import StepTiming from '@/components/multiStepForm/steps/StepTiming';
 import StepBudget from '@/components/multiStepForm/steps/StepBudget';
 import StepMission from '@/components/multiStepForm/steps/StepMission';
@@ -55,7 +55,7 @@ const MultiStepForm = ({ onSubmit: onSubmitExternal, mode = 'register' }) => {
       features: Array.isArray(formData.features) && formData.features.length > 0 ? formData.features : [],
       visualStyle: formData.visualStyle,
       // font removed
-      colorPalette: Array.isArray(formData.colorPalette) && formData.colorPalette.length > 0 ? formData.colorPalette : [],
+      //colorPalette: Array.isArray(formData.colorPalette) && formData.colorPalette.length > 0 ? formData.colorPalette : [],
       timing: formData.timing,
       budget: formData.budget,
       missionPart1: formData.missionPart1,
@@ -99,7 +99,7 @@ const MultiStepForm = ({ onSubmit: onSubmitExternal, mode = 'register' }) => {
         features: formData.features,
         visualStyle: formData.visualStyle,
         // font removed
-        colorPalette: formData.colorPalette,
+        // colorPalette: formData.colorPalette,
         timing: formData.timing,
         budget: formData.budget,
         missionPart1: formData.missionPart1,
@@ -170,13 +170,13 @@ const MultiStepForm = ({ onSubmit: onSubmitExternal, mode = 'register' }) => {
           return <StepFeatures onNext={() => setCurrentStep(6)} />;
         case 6:
           return <StepVisualStyle onNext={() => setCurrentStep(7)} />;
+        // case 7:
+        //   return <ColorPaletteSelection onNext={() => setCurrentStep(8)} />;
         case 7:
-          return <ColorPaletteSelection onNext={() => setCurrentStep(8)} />;
-        case 8:
           return <StepTiming onNext={() => setCurrentStep(9)} />;
-        case 9:
+        case 8:
           return <StepBudget onNext={() => setCurrentStep(10)} />;
-        case 10:
+        case 9:
           return <StepMission onSubmit={handleSubmit} isSubmitting={isSubmitting} />;
         default:
           setCurrentStep(1);
@@ -198,13 +198,13 @@ const MultiStepForm = ({ onSubmit: onSubmitExternal, mode = 'register' }) => {
         return <StepFeatures onNext={() => setCurrentStep(7)} />;
       case 7:
         return <StepVisualStyle onNext={() => setCurrentStep(8)} />;
+      // case 8:
+      //   return <ColorPaletteSelection onNext={() => setCurrentStep(9)} />;
       case 8:
-        return <ColorPaletteSelection onNext={() => setCurrentStep(9)} />;
-      case 9:
         return <StepTiming onNext={() => setCurrentStep(10)} />;
-      case 10:
+      case 9:
         return <StepBudget onNext={() => setCurrentStep(11)} />;
-      case 11:
+      case 10:
         return <StepMission onSubmit={handleSubmit} isSubmitting={isSubmitting} />;
       default:
         setCurrentStep(1);
