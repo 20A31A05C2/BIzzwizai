@@ -117,7 +117,7 @@
       },
       "resources": {
         "documentation": "Documentation",
-        "helpCenter": "Centre d'aide",
+        "helpCenter": "Mentions légales",
         "privacyPolicy": "Politique de confidentialité",
         "termsOfUse": "Conditions d'utilisation",
         "cookiePolicy": "Politique de cookies"
@@ -1437,6 +1437,100 @@
     "font_title": "Police",
     "logo_unavailable": "Logo non disponible",
     "no_data_to_display": "Aucune donnée d'identité visuelle disponible à afficher."
+  },
+    "privacyPolicy": {
+    "title": "Politique de confidentialité – BIZZWIZ AI",
+    "intro": "La protection de vos données personnelles est une priorité pour BIZZWIZ AI. Nous collectons uniquement les informations strictement nécessaires pour vous accompagner dans vos projets.",
+    "dataController": {
+      "title": "1. Responsable du traitement",
+      "description": "Le site est exploité par Mohammed Lakhdar (BIZZWIZ AI). La responsabilité légale et la gestion financière sont assurées par Jump SAS – 18 rue de Londres, 75009 Paris – RCS Paris 843 901 888."
+    },
+    "dataCollected": {
+      "title": "2. Données collectées",
+      "items": {
+        "name": "Nom, prénom",
+        "email": "Adresse e-mail",
+        "phone": "Numéro de téléphone",
+        "projectInfo": "Informations relatives au projet"
+      }
+    },
+    "purpose": {
+      "title": "3. Finalité",
+      "intro": "Vos données sont utilisées uniquement pour :",
+      "items": {
+        "communicate": "communiquer avec vous",
+        "analyze": "analyser vos besoins",
+        "monitor": "assurer le suivi de votre projet"
+      }
+    },
+    "payments": {
+      "title": "4. Paiements",
+      "description": "Tous les paiements sont gérés directement par Jump. Aucune donnée bancaire n’est collectée ou stockée sur le site de BIZZWIZ AI."
+    },
+    "cookies": {
+      "title": "5. Cookies",
+      "description": "Le site utilise des cookies pour améliorer votre expérience de navigation et établir des statistiques anonymes."
+    },
+    "userRights": {
+      "title": "6. Droits des utilisateurs",
+      "description": "Conformément au RGPD, vous pouvez à tout moment demander l’accès, la rectification ou la suppression de vos données en contactant Jump SAS."
+    }
+  },
+  "termsAndConditions": {
+    "title": "Conditions générales d’utilisation (CGU) – BIZZWIZ AI",
+    "intro": "Cette page présente les conditions générales d’utilisation des services proposés par BIZZWIZ AI.",
+    "object": {
+      "title": "1. Objet",
+      "description": "Ce site présente les services proposés par BIZZWIZ AI et permet aux utilisateurs de soumettre leurs projets."
+    },
+    "responsibility": {
+      "title": "2. Responsabilité",
+      "description": "Le site est géré par Mohammed Lakhdar (BIZZWIZ AI). La responsabilité légale et la gestion financière sont assurées par Jump SAS – 18 rue de Londres, 75009 Paris – RCS Paris 843 901 888."
+    },
+    "usage": {
+      "title": "3. Utilisation",
+      "description": "L’utilisateur s’engage à fournir des informations exactes lors de la prise de contact."
+    },
+    "services": {
+      "title": "4. Services et paiements",
+      "description": "Les prestations sont définies au cas par cas. Les paiements sont intégralement traités et encaissés par Jump."
+    },
+    "liability": {
+      "title": "5. Limitation de responsabilité",
+      "description": "BIZZWIZ AI n’est pas responsable des interruptions de service ou problèmes techniques liés à l’hébergement (HOSTINGER)."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Politique de cookies – BIZZWIZ AI",
+    "intro": "Ce site utilise des cookies afin d’améliorer votre expérience et collecter des statistiques d’utilisation anonymes.",
+    "usage": {
+      "title": "1. Utilisation des cookies",
+      "intro": "Ce site utilise des cookies afin de :",
+      "items": {
+        "improveExperience": "améliorer l’expérience utilisateur",
+        "collectStats": "collecter des statistiques anonymes de fréquentation"
+      }
+    },
+    "consent": {
+      "title": "2. Consentement",
+      "description": "En continuant votre navigation, vous acceptez l’utilisation de ces cookies. Vous pouvez configurer votre navigateur pour les désactiver."
+    }
+  },
+  "legalNotice": {
+    "title": "Mentions légales – BIZZWIZ AI",
+    "intro": "Conformément à la loi, les mentions légales suivantes sont portées à la connaissance des utilisateurs du site.",
+    "publisher": {
+      "title": "1. Éditeur du site",
+      "description": "Mohammed Lakhdar – BIZZWIZ AI. Activité exercée sous portage salarial avec Jump SAS – 18 rue de Londres, 75009 Paris – RCS Paris 843 901 888."
+    },
+    "host": {
+      "title": "2. Hébergeur",
+      "description": "Le site est hébergé par Hostinger International Ltd. – 61 Lordou Vironos Street, 6023 Larnaca, Chypre."
+    },
+    "contact": {
+      "title": "3. Contact",
+      "description": "Adresse e-mail : contact@bizzwiz.ai"
+    }
   }
 
   }
