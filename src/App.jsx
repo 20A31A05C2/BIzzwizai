@@ -49,6 +49,7 @@ import PrivacyPolicy from './components/PrivacyPolicy';
 import TermsAndCondition from './components/TermsAndConditions';
 import CookiePolicy from './components/CookiePolicy';
 import LegalNotice from './components/LegalNotice';
+import ViewAllProjects from './components/views/ViewAllProjects';
 
 const AppWrapper = () => {
   const location = useLocation();
@@ -72,6 +73,7 @@ const AppWrapper = () => {
             <Route path="/" element={<LandingPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/faq" element={<FAQPage />} />
+            <Route path="/projects" element={<ViewAllProjects />} />
             <Route path="/documentation" element={<DocumentationPage />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-and-conditions" element={<TermsAndCondition />} />
