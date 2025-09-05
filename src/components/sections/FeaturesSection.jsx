@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import { useNavigate } from 'react-router-dom';
 import { 
   FileText, Eye, Figma, Map, BarChart3, CreditCard,
   Mail, TrendingUp, Target, FileCode
@@ -8,6 +9,7 @@ import { useTranslation } from 'react-i18next';
 
 const FeaturesSection = () => {
   const { t } = useTranslation();
+  const navigate = useNavigate();
 
   // Animation variants
   const containerVariants = {
@@ -165,6 +167,7 @@ const FeaturesSection = () => {
           variants={sectionVariants}
         >
           <motion.div 
+            onClick={() => navigate('/register')}
             className="inline-flex items-center px-6 sm:px-8 md:px-10 lg:px-12 py-3 sm:py-4 md:py-5 lg:py-6 rounded-full backdrop-blur-xl bg-white/5 border border-white/10 hover:bg-white/10 transition-all duration-300 cursor-pointer group hover:scale-105"
             whileHover={{ y: -2 }}
             whileTap={{ scale: 0.95 }}
