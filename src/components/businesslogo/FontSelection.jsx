@@ -288,7 +288,7 @@ ${t('font_selection.css')}: font-family: ${selectedFont.family};
       >
         <div className="w-full max-w-7xl space-y-4 mb-8">
           <TopHeaderBar />
-          <LevelHeader levelno="Level 4" heading={t('font_selection.level_header')} />
+          <LevelHeader levelno="Level 3" heading={t('font_selection.level_header')} />
         </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
