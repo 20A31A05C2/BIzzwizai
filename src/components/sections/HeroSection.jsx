@@ -47,8 +47,21 @@ const HeroSection = ({
 }) => {
     const { t } = useTranslation();
     const [currentVariant, setCurrentVariant] = useState("primary");
+    const [activeVideo, setActiveVideo] = useState("bizzHub");
     const variants = Object.keys(COLOR_VARIANTS);
     const shouldReduceMotion = useReducedMotion();
+
+    // Video URLs for BIZZ HUB and WIZ GROWTH (replace with actual URLs)
+    const videos = {
+        bizzHub: {
+            url: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1",
+            title: "BizzWiz Demo Video",
+        },
+        wizGrowth: {
+            url: "https://www.youtube.com/embed/ysz5S6PUM-U?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1",
+            title: "Wiz Growth Demo Video",
+        },
+    };
 
     useEffect(() => {
         const interval = setInterval(() => {
@@ -110,6 +123,19 @@ const HeroSection = ({
             transition: {
                 delay: 1.5,
                 duration: 0.6,
+                ease: "easeOut"
+            }
+        }
+    };
+
+    const videoButtonVariants = {
+        hidden: { opacity: 0, y: 20 },
+        visible: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: 1.7,
+                duration: 0.4,
                 ease: "easeOut"
             }
         }
@@ -185,10 +211,10 @@ const HeroSection = ({
                     </motion.div>
                 </div>
 
-                {/* Video Placeholder - Lower Half */}
-                <div className="relative z-10 absolute bottom-0 left-0 right-0 h-[60%] flex items-center justify-center px-0 pt-8 sm:pt-10 md:pt-12 lg:pt-16">
+                {/* Video and Buttons Container - Lower Half */}
+                <div className="relative z-10 absolute bottom-0 left-0 right-0 h-[60%] flex flex-col items-center justify-center px-0 pt-8 sm:pt-10 md:pt-12 lg:pt-16">
                     <motion.div
-                        className="w-full h-full max-w-[min(100%,900px)] aspect-video rounded-[clamp(8px,1.5vw,16px)] sm:rounded-[clamp(12px,2vw,20px)] md:rounded-[clamp(16px,2.5vw,24px)] lg:rounded-[clamp(20px,3vw,28px)] border border-white/20 bg-black/40 backdrop-blur-md overflow-hidden shadow-2xl"
+                        className="w-full h-[80%] max-w-[min(100%,900px)] aspect-video rounded-[clamp(8px,1.5vw,16px)] sm:rounded-[clamp(12px,2vw,20px)] md:rounded-[clamp(16px,2.5vw,24px)] lg:rounded-[clamp(20px,3vw,28px)] border border-white/20 bg-black/40 backdrop-blur-md overflow-hidden shadow-2xl"
                         variants={videoVariants}
                     >
                         <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent" />
@@ -196,12 +222,31 @@ const HeroSection = ({
                         {/* Video Iframe */}
                         <iframe
                             className="w-full h-full rounded-[clamp(8px,1.5vw,16px)] sm:rounded-[clamp(12px,2vw,20px)] md:rounded-[clamp(16px,2.5vw,24px)] lg:rounded-[clamp(20px,3vw,28px)]"
-                            src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1"
-                            title="BizzWiz Demo Video"
+                            src={videos[activeVideo].url}
+                            title={videos[activeVideo].title}
                             frameBorder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
                         />
+                    </motion.div>
+
+                    {/* Video Selection Buttons */}
+                    <motion.div
+                        className="flex justify-center gap-4 sm:gap-6 mt-4 sm:mt-5 md:mt-6"
+                        variants={videoButtonVariants}
+                    >
+                        <button
+                            onClick={() => setActiveVideo("bizzHub")}
+                            className={`px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg sm:rounded-xl border border-white/20 bg-white/10 text-white font-medium shadow-md backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-lg hover:border-white/30 text-[clamp(0.875rem,2.5vw,1rem)] sm:text-[clamp(1rem,2.75vw,1.125rem)] md:text-[clamp(1.125rem,3vw,1.25rem)] ${activeVideo === "bizzHub" ? "bg-white/20 border-white/30" : ""}`}
+                        >
+                            {t('hero.bizzHub')}
+                        </button>
+                        <button
+                            onClick={() => setActiveVideo("wizGrowth")}
+                            className={`px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg sm:rounded-xl border border-white/20 bg-white/10 text-white font-medium shadow-md backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-lg hover:border-white/30 text-[clamp(0.875rem,2.5vw,1rem)] sm:text-[clamp(1rem,2.75vw,1.125rem)] md:text-[clamp(1.125rem,3vw,1.25rem)] ${activeVideo === "wizGrowth" ? "bg-white/20 border-white/30" : ""}`}
+                        >
+                            {t('hero.wizGrowth')}
+                        </button>
                     </motion.div>
                 </div>
             </div>
