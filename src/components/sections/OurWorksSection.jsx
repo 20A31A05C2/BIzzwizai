@@ -168,7 +168,7 @@ const OurWorksSection = () => {
         >
           <motion.button
             onClick={() => navigate('/projects')}
-            className="bg-gradient-to-r from-[#3ABEFF] to-[#FF8C42] text-white font-semibold py-3 sm:py-4 px-8 sm:px-12 rounded-xl sm:rounded-2xl text-sm sm:text-base md:text-lg lg:text-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
+            className="bg-gradient-to-r from-purple-600 via-purple-500 to-purple-500 hover:from-purple-700 hover:via-purple-600 hover:to-purple-600 text-white font-semibold py-3 sm:py-4 px-8 sm:px-12 rounded-xl sm:rounded-2xl text-sm sm:text-base md:text-lg lg:text-xl shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 active:scale-95"
             whileHover={{ 
               boxShadow: "0 20px 40px rgba(58, 190, 255, 0.3)",
               y: -2
