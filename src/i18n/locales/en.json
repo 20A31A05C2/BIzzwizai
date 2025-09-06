@@ -11,7 +11,9 @@
     "hero": {
       "title": "Your Vision, Built by Experts",
       "description": "Track Progress While We Handle the Rest",
-      "startProject": "Start My Project"
+      "startProject": "Start My Project",
+        "bizzHub": "BIZZ HUB",
+      "wizGrowth": "WIZ GROWTH"
     },
     "ourWorks": {
       "title": "Our Work",
