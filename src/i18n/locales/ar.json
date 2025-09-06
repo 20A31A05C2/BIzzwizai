@@ -11,7 +11,9 @@
     "hero": {
       "title": "رؤيتك، بناها الخبراء",
       "description": "تتبع التقدم بينما نتولى الباقي",
-      "startProject": "ابدأ مشروعي"
+      "startProject": "ابدأ مشروعي",
+        "bizzHub": "BIZZ HUB",
+      "wizGrowth": "WIZ GROWTH"
     },
     "ourWorks": {
       "title": "عملنا",
