@@ -407,7 +407,7 @@ const downloadLogo = async () => {
       >
         <div className="w-full max-w-7xl space-y-4 mb-8">
           <TopHeaderBar />
-          <LevelHeader levelno="Level 5" heading={t('logo_maker.level_header', { defaultValue: 'LOGO MAKER' })} />
+          <LevelHeader levelno="Level 4" heading={t('logo_maker.level_header', { defaultValue: 'LOGO MAKER' })} />
         </div>
 
         <motion.div
