@@ -56,11 +56,11 @@ const HeroSection = ({
     // Video URLs for BIZZ HUB and WIZ GROWTH (fixed to embed format)
     const videos = {
         bizzHub: {
-            url: "https://www.youtube.com/watch?v=X2JDKlhhPtU",
+            url: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1",
             title: "BizzWiz Video",
         },
         wizGrowth: {
-            url: "https://www.youtube.com/watch?v=tQ84XYcP-nA",
+            url: "https://www.youtube.com/embed/jfKfPfyJRdk",
             title: "Wiz Growth Video",
         },
     };
