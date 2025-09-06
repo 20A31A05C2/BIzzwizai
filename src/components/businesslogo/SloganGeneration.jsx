@@ -283,7 +283,7 @@ const SloganGeneration = ({ setCurrentView }) => {
       >
         <div className="w-full max-w-7xl space-y-4 mb-8">
           <TopHeaderBar />
-          <LevelHeader levelno="Level 2" heading={t('sloganComponent.levelheader')} />
+          <LevelHeader levelno="Level 3" heading={t('sloganComponent.levelheader')} />
         </div>
         <motion.div
           initial={{ opacity: 0, y: 30 }}
