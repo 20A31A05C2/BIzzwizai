@@ -1,5 +1,6 @@
+
 import { motion, useReducedMotion } from "framer-motion";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import { Rocket } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useTranslation } from 'react-i18next';
@@ -48,21 +49,45 @@ const HeroSection = ({
     const { t } = useTranslation();
     const [currentVariant, setCurrentVariant] = useState("primary");
     const [activeVideo, setActiveVideo] = useState("bizzHub");
+    const playerRef = useRef(null);
     const variants = Object.keys(COLOR_VARIANTS);
     const shouldReduceMotion = useReducedMotion();
 
-    // Video URLs for BIZZ HUB and WIZ GROWTH (replace with actual URLs)
+    // Video URLs for BIZZ HUB and WIZ GROWTH (fixed to embed format)
     const videos = {
         bizzHub: {
-            url: "https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1",
-            title: "BizzWiz Demo Video",
+            url: "https://www.youtube.com/watch?v=X2JDKlhhPtU",
+            title: "BizzWiz Video",
         },
         wizGrowth: {
-            url: "https://www.youtube.com/embed/ysz5S6PUM-U?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1",
-            title: "Wiz Growth Demo Video",
+            url: "https://www.youtube.com/watch?v=tQ84XYcP-nA",
+            title: "Wiz Growth Video",
         },
     };
 
+    // Load YouTube IFrame Player API
+    useEffect(() => {
+        const tag = document.createElement('script');
+        tag.src = "https://www.youtube.com/iframe_api";
+        const firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        window.onYouTubeIframeAPIReady = () => {
+            const player = new window.YT.Player('youtube-player', {
+                events: {
+                    onReady: (event) => {
+                        playerRef.current = event.target;
+                    },
+                },
+            });
+        };
+
+        return () => {
+            delete window.onYouTubeIframeAPIReady;
+        };
+    }, []);
+
+    // Handle color variant cycling
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentVariant(prevVariant => {
@@ -74,6 +99,13 @@ const HeroSection = ({
 
         return () => clearInterval(interval);
     }, [autoChangeInterval, variants]);
+
+    // Handle video container click to play video
+    const handleVideoClick = () => {
+        if (playerRef.current && playerRef.current.playVideo) {
+            playerRef.current.playVideo();
+        }
+    };
 
     const variantStyles = COLOR_VARIANTS[currentVariant];
 
@@ -212,15 +244,17 @@ const HeroSection = ({
                 </div>
 
                 {/* Video and Buttons Container - Lower Half */}
-                <div className="relative z-10 absolute bottom-0 left-0 right-0 h-[60%] flex flex-col items-center justify-center px-0 pt-8 sm:pt-10 md:pt-12 lg:pt-16">
+                <div className="relative z-10 absolute bottom-0 left-0 right-0 h-[80%] flex flex-col items-center justify-center px-0 pt-8 sm:pt-10 md:pt-12 lg:pt-16">
                     <motion.div
-                        className="w-full h-[80%] max-w-[min(100%,900px)] aspect-video rounded-[clamp(8px,1.5vw,16px)] sm:rounded-[clamp(12px,2vw,20px)] md:rounded-[clamp(16px,2.5vw,24px)] lg:rounded-[clamp(20px,3vw,28px)] border border-white/20 bg-black/40 backdrop-blur-md overflow-hidden shadow-2xl"
+                        className="w-full h-[70%] max-w-[min(100%,900px)] aspect-video rounded-[clamp(8px,1.5vw,16px)] sm:rounded-[clamp(12px,2vw,20px)] md:rounded-[clamp(16px,2.5vw,24px)] lg:rounded-[clamp(20px,3vw,28px)] border border-white/20 bg-black/40 backdrop-blur-md overflow-hidden shadow-2xl cursor-pointer"
                         variants={videoVariants}
+                        onClick={handleVideoClick}
                     >
                         <div className="absolute inset-0 bg-gradient-to-br from-white/5 to-transparent" />
                         
                         {/* Video Iframe */}
                         <iframe
+                            id="youtube-player"
                             className="w-full h-full rounded-[clamp(8px,1.5vw,16px)] sm:rounded-[clamp(12px,2vw,20px)] md:rounded-[clamp(16px,2.5vw,24px)] lg:rounded-[clamp(20px,3vw,28px)]"
                             src={videos[activeVideo].url}
                             title={videos[activeVideo].title}
@@ -237,13 +271,13 @@ const HeroSection = ({
                     >
                         <button
                             onClick={() => setActiveVideo("bizzHub")}
-                            className={`px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg sm:rounded-xl border border-white/20 bg-white/10 text-white font-medium shadow-md backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-lg hover:border-white/30 text-[clamp(0.875rem,2.5vw,1rem)] sm:text-[clamp(1rem,2.75vw,1.125rem)] md:text-[clamp(1.125rem,3vw,1.25rem)] ${activeVideo === "bizzHub" ? "bg-white/20 border-white/30" : ""}`}
+                            className="text-white font-medium text-[clamp(0.875rem,2.5vw,1rem)] sm:text-[clamp(1rem,2.75vw,1.125rem)] md:text-[clamp(1.125rem,3vw,1.25rem)] hover:text-gray-300 hover:underline transition-all duration-300"
                         >
                             {t('hero.bizzHub')}
                         </button>
                         <button
                             onClick={() => setActiveVideo("wizGrowth")}
-                            className={`px-4 sm:px-5 md:px-6 py-2 sm:py-2.5 md:py-3 rounded-lg sm:rounded-xl border border-white/20 bg-white/10 text-white font-medium shadow-md backdrop-blur-md transition-all duration-300 hover:scale-105 hover:bg-white/20 hover:shadow-lg hover:border-white/30 text-[clamp(0.875rem,2.5vw,1rem)] sm:text-[clamp(1rem,2.75vw,1.125rem)] md:text-[clamp(1.125rem,3vw,1.25rem)] ${activeVideo === "wizGrowth" ? "bg-white/20 border-white/30" : ""}`}
+                            className="text-white font-medium text-[clamp(0.875rem,2.5vw,1rem)] sm:text-[clamp(1rem,2.75vw,1.125rem)] md:text-[clamp(1.125rem,3vw,1.25rem)] hover:text-gray-300 hover:underline transition-all duration-300"
                         >
                             {t('hero.wizGrowth')}
                         </button>
