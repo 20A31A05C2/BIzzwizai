@@ -43,7 +43,7 @@ const OurWorksSection = () => {
   };
 
   return (
-    <section id="our-work" className="w-full bg-black text-white py-0 px-4 sm:px-6 md:px-8 lg:px-12 font-montserrat mb-[420px] md:mb-48">
+    <section id="our-work" className="w-full bg-black text-white py-0 px-4 sm:px-6 md:px-8 lg:px-12 font-montserrat mb-12 sm:mb-16 md:mb-20 lg:mb-24 xl:mb-28">
       <motion.div 
         className="max-w-6xl mx-auto text-center px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 lg:py-20"
         variants={containerVariants}
@@ -160,6 +160,7 @@ const OurWorksSection = () => {
             ></iframe>
           </motion.div>
         </div>
+
         {/* View Projects Button */}
         <motion.div
           className="flex justify-center mt-12 sm:mt-16 md:mt-20"
